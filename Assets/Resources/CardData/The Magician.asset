@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: The Magician
+  m_EditorClassIdentifier: 
+  cardName: The Magician
+  order: 1
+  suit: 0
+  cardPicture: {fileID: 2800000, guid: be909753b0c9a4537a7964939c40a125, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: fdbea2d89ca1be54abc928ecdc41bb0a, type: 3}
+  cardLongDescription: 'The Magician: manifestation, action, individual potential^
+
+
+    The Magician represents discovering your personal power,^ and beginning to test
+    out how you can make things happen with just the things inside of yourself.^ The
+    Magician has the tools for every element as they are in the process of discovering
+    what tools best resonate them,^ and how they can make a difference in the world
+    around them.'
+  cardShortDescription: 'manifestation
+
+    action
+
+    individual potential'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 61e1739e254baa34c9e49535cde7d7e1,
+      type: 2}
+  cardKeyArray:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84c049a710fcae04dbc3b75d2845a91e,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 16f3b3538191ed14587294f09d495f34,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d29f1068f70be5a49b0bb46ed68d5506,
+      type: 2}
+  clipDuration: 50
+  thematicGroup: 3
+  videoType: 8

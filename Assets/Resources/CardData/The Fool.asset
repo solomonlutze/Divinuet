@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: The Fool
+  m_EditorClassIdentifier: 
+  cardName: The Fool
+  order: 0
+  suit: 0
+  cardPicture: {fileID: 2800000, guid: 6a093e7f38ed546e5819580fa3240a1f, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: cfa4d899d828c3544bbb9b37e1fcc3f0, type: 3}
+  cardLongDescription: "The Fool: new beginnings, inexperience, innocence^\n\nAs the
+    first card in the major arcana, the fool is all about starting anew.^ In many
+    decks this card features someone walking or diving off the edge of a cliff, but
+    this isn\x19't prompted by distress or outside circumstances.^ The fool is excitedly
+    diving into something new,^ unsure of what\x19's ahead but ready to meet the challenge."
+  cardShortDescription: 'new beginnings
+
+    inexperience
+
+    innocence'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 48740e0c94a28d44ba4721eea989948b,
+      type: 2}
+  cardKeyArray:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 97a6425e3d2946d4a85d53148c6cba95,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1edd987310b39a74a805e1f5f16eec14,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 84abc170f6546bc4ba306c25844e5b6f,
+      type: 2}
+  clipDuration: 36
+  thematicGroup: 5
+  videoType: 8

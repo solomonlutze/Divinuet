@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9f6784711a8344086daef86527f8c9, type: 3}
+  m_Name: 98BF5AA2-F0E2-4911-B68F-A1793C35A2DC
+  m_EditorClassIdentifier: 
+  objectName: QueenOfCups
+  id: 2722779265
+  guid: 98BF5AA2-F0E2-4911-B68F-A1793C35A2DC
