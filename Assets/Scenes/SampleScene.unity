@@ -449,8 +449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20b4078588a7c4d4886cd8446f1c8737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DEBUG_skipReading: 1
-  DEBUG_skipAllReadings: 1
+  DEBUG_skipReading: 0
+  DEBUG_skipAllReadings: 0
   DEBUG_SaveReadingImmediately: 0
   DEBUG_EnableReadingGeneration: 0
   deckCardPrefab: {fileID: 4088565087975016767, guid: f17d95d6ec51d44d68dc02e5f2e3cb99,
@@ -890,10 +890,10 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 2b7a545690619b646bb6cd318a108522, type: 3}
   - {fileID: 32900000, guid: d5b9ae3a068d2c843b78e4814276de72, type: 3}
   - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 32900000, guid: 078c0af714371a343895f4f30f834b88, type: 3}
   - {fileID: 32900000, guid: f76e6e0baaf398e438bc62e5b400ac77, type: 3}
-  - {fileID: 0}
+  - {fileID: 32900000, guid: 078c0af714371a343895f4f30f834b88, type: 3}
+  - {fileID: 32900000, guid: f76e6e0baaf398e438bc62e5b400ac77, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   minorArcanaVideoClips:
@@ -3202,7 +3202,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 10
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -3230,7 +3230,7 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -22266,7 +22266,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 6
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -22294,7 +22294,7 @@ MonoBehaviour:
     spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -23167,7 +23167,7 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -32315,7 +32315,7 @@ MonoBehaviour:
     spaceCount: 2
     wordCount: 3
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -33193,7 +33193,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 12
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -33221,7 +33221,7 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
