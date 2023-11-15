@@ -15,7 +15,13 @@ namespace AK
     {
         static const AkUniqueID ACCOMPANIMENTCUPS = 3691358005U;
         static const AkUniqueID ACCOMPANIMENTMAJORARCANA = 802427635U;
+        static const AkUniqueID ACCOMPANIMENTNULL = 2253610385U;
+        static const AkUniqueID ACCOMPANIMENTPENTACLES = 2401993111U;
+        static const AkUniqueID ACCOMPANIMENTSWORDS = 820727340U;
+        static const AkUniqueID ACCOMPANIMENTWANDS = 816211659U;
         static const AkUniqueID ACEOFCUPS = 2478979318U;
+        static const AkUniqueID ACEOFSWORDS = 376576603U;
+        static const AkUniqueID AFTERREADINGAMBIENCESTART = 2058034069U;
         static const AkUniqueID CARD1CUPS = 1213864503U;
         static const AkUniqueID CARD1DORIAN = 3649626589U;
         static const AkUniqueID CARD1GROUP1 = 701895722U;
@@ -85,40 +91,61 @@ namespace AK
         static const AkUniqueID CARDSLIDE = 4145272430U;
         static const AkUniqueID CUPS = 3817145194U;
         static const AkUniqueID DEATH = 779278001U;
+        static const AkUniqueID EIGHTOFCUPS = 36489238U;
         static const AkUniqueID EIGHTOFPENTACLES = 3555933294U;
+        static const AkUniqueID EIGHTOFSWORDS = 1650692475U;
+        static const AkUniqueID EIGHTOFWANDS = 925615014U;
         static const AkUniqueID FIVEOFCUPS = 679328597U;
+        static const AkUniqueID FIVEOFWANDS = 3022449515U;
         static const AkUniqueID FOUROFSWORDS = 112666488U;
+        static const AkUniqueID INTERLUDE = 1770673853U;
+        static const AkUniqueID JUDGEMENT = 1607130542U;
         static const AkUniqueID KINGOFCUPS = 87267876U;
         static const AkUniqueID KINGOFPENTACLES = 1715977140U;
+        static const AkUniqueID KINGOFSWORDS = 3530681053U;
         static const AkUniqueID MAIN = 3161908922U;
         static const AkUniqueID MAJORARCANA = 798166914U;
         static const AkUniqueID MENUAMBIENCESTART = 3653149380U;
         static const AkUniqueID MENUAMBIENCESTOP = 249775224U;
         static const AkUniqueID NINEOFPENTACLES = 1963057671U;
+        static const AkUniqueID NINEOFSWORDS = 3394600732U;
         static const AkUniqueID NULL = 784127654U;
         static const AkUniqueID PENTACLES = 495557850U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID QUEENOFCUPS = 2722779265U;
+        static const AkUniqueID QUEENOFWANDS = 1734100207U;
         static const AkUniqueID READINGSTART = 1965947029U;
         static const AkUniqueID SEVENOFCUPS = 884571752U;
         static const AkUniqueID SEVENOFPENTACLES = 4205938704U;
         static const AkUniqueID SEVENOFSWORDS = 587937073U;
+        static const AkUniqueID SEVENOFWANDS = 3661391600U;
+        static const AkUniqueID SIXOFCUPS = 2428720959U;
         static const AkUniqueID SIXOFPENTACLES = 2491223249U;
         static const AkUniqueID SIXOFSWORDS = 3436307834U;
+        static const AkUniqueID SKIPREADINGMUSIC = 368896769U;
         static const AkUniqueID STATE_GENERATIVE = 3535269221U;
         static const AkUniqueID STATE_MAKINGSONG = 1929173219U;
         static const AkUniqueID STATE_READING = 1701015953U;
+        static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STRENGTH = 1008270286U;
         static const AkUniqueID SWORDS = 361241855U;
-        static const AkUniqueID SWORDSFLIP = 4085194074U;
         static const AkUniqueID TEMPERANCE = 1462743847U;
         static const AkUniqueID TENOFCUPS = 2461612130U;
         static const AkUniqueID TENOFSWORDS = 2185129511U;
         static const AkUniqueID THEEMPRESS = 4181689965U;
         static const AkUniqueID THEFOOL = 2631758982U;
+        static const AkUniqueID THEHANGEDMAN = 3258053151U;
+        static const AkUniqueID THEHERMIT = 1490823267U;
+        static const AkUniqueID THEHIEROPHANT = 4170319004U;
         static const AkUniqueID THEHIGHPRIESTESS = 3676275462U;
         static const AkUniqueID THEMAGICIAN = 1726594133U;
         static const AkUniqueID THEMOON = 2075671581U;
         static const AkUniqueID THESTAR = 2436895318U;
+        static const AkUniqueID THESUN = 2005699188U;
+        static const AkUniqueID THREEOFCUPS = 1101082655U;
+        static const AkUniqueID THREEOFSWORDS = 3694586202U;
         static const AkUniqueID TWOOFCUPS = 1765113981U;
+        static const AkUniqueID TWOOFSWORDS = 2916563044U;
         static const AkUniqueID TWOOFWANDS = 28325139U;
         static const AkUniqueID VAMP = 3908339577U;
         static const AkUniqueID WANDS = 2202738146U;
@@ -146,6 +173,7 @@ namespace AK
                 static const AkUniqueID CARD1GROUP11 = 100777519U;
                 static const AkUniqueID CARD1GROUP12 = 100777516U;
                 static const AkUniqueID CARD1GROUP13 = 100777517U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace CARD1GROUP
 
@@ -160,6 +188,7 @@ namespace AK
                 static const AkUniqueID CARD1PENTACLES = 741549657U;
                 static const AkUniqueID CARD1SWORDS = 905849762U;
                 static const AkUniqueID CARD1WANDS = 3713380301U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace CARD1SUIT
 
@@ -182,6 +211,7 @@ namespace AK
                 static const AkUniqueID CARD2GROUP11 = 3387899018U;
                 static const AkUniqueID CARD2GROUP12 = 3387899017U;
                 static const AkUniqueID CARD2GROUP13 = 3387899016U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace CARD2GROUP
 
@@ -196,6 +226,7 @@ namespace AK
                 static const AkUniqueID CARD2PENTACLES = 231901376U;
                 static const AkUniqueID CARD2SWORDS = 2252698273U;
                 static const AkUniqueID CARD2WANDS = 1323396928U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace CARD2SUIT
 
@@ -218,6 +249,7 @@ namespace AK
                 static const AkUniqueID CARD3GROUP11 = 2994974289U;
                 static const AkUniqueID CARD3GROUP12 = 2994974290U;
                 static const AkUniqueID CARD3GROUP13 = 2994974291U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace CARD3GROUP
 
@@ -232,19 +264,9 @@ namespace AK
                 static const AkUniqueID CARD3PENTACLES = 3909883483U;
                 static const AkUniqueID CARD3SWORDS = 3113582184U;
                 static const AkUniqueID CARD3WANDS = 1632202991U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace CARD3SUIT
-
-        namespace CARDFLIPPING
-        {
-            static const AkUniqueID GROUP = 311318854U;
-
-            namespace STATE
-            {
-                static const AkUniqueID CUPS = 3817145194U;
-                static const AkUniqueID SWORDS = 361241855U;
-            } // namespace STATE
-        } // namespace CARDFLIPPING
 
         namespace DURINGREADING
         {
@@ -253,17 +275,31 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID ACEOFCUPS = 2478979318U;
+                static const AkUniqueID ACEOFSWORDS = 376576603U;
+                static const AkUniqueID AFTERREADINGBED = 1900785500U;
                 static const AkUniqueID DEATH = 779278001U;
+                static const AkUniqueID EIGHTOFCUPS = 36489238U;
                 static const AkUniqueID EIGHTOFPENTACLES = 3555933294U;
+                static const AkUniqueID EIGHTOFSWORDS = 1650692475U;
+                static const AkUniqueID EIGHTOFWANDS = 925615014U;
                 static const AkUniqueID FIVEOFCUPS = 679328597U;
+                static const AkUniqueID FIVEOFWANDS = 3022449515U;
                 static const AkUniqueID FOUROFSWORDS = 112666488U;
                 static const AkUniqueID INTERLUDE = 1770673853U;
+                static const AkUniqueID JUDGEMENT = 1607130542U;
                 static const AkUniqueID KINGOFCUPS = 87267876U;
                 static const AkUniqueID KINGOFPENTACLES = 1715977140U;
+                static const AkUniqueID KINGOFSWORDS = 3530681053U;
                 static const AkUniqueID NINEOFPENTACLES = 1963057671U;
+                static const AkUniqueID NINEOFSWORDS = 3394600732U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID QUEENOFCUPS = 2722779265U;
+                static const AkUniqueID QUEENOFWANDS = 1734100207U;
                 static const AkUniqueID SEVENOFCUPS = 884571752U;
                 static const AkUniqueID SEVENOFPENTACLES = 4205938704U;
                 static const AkUniqueID SEVENOFSWORDS = 587937073U;
+                static const AkUniqueID SEVENOFWANDS = 3661391600U;
+                static const AkUniqueID SIXOFCUPS = 2428720959U;
                 static const AkUniqueID SIXOFPENTACLES = 2491223249U;
                 static const AkUniqueID SIXOFSWORDS = 3436307834U;
                 static const AkUniqueID STRENGTH = 1008270286U;
@@ -272,11 +308,18 @@ namespace AK
                 static const AkUniqueID TENOFSWORDS = 2185129511U;
                 static const AkUniqueID THEEMPRESS = 4181689965U;
                 static const AkUniqueID THEFOOL = 2631758982U;
+                static const AkUniqueID THEHANGEDMAN = 3258053151U;
+                static const AkUniqueID THEHERMIT = 1490823267U;
+                static const AkUniqueID THEHIEROPHANT = 4170319004U;
                 static const AkUniqueID THEHIGHPRIESTESS = 3676275462U;
                 static const AkUniqueID THEMAGICIAN = 1726594133U;
                 static const AkUniqueID THEMOON = 2075671581U;
                 static const AkUniqueID THESTAR = 2436895318U;
+                static const AkUniqueID THESUN = 2005699188U;
+                static const AkUniqueID THREEOFCUPS = 1101082655U;
+                static const AkUniqueID THREEOFSWORDS = 3694586202U;
                 static const AkUniqueID TWOOFCUPS = 1765113981U;
+                static const AkUniqueID TWOOFSWORDS = 2916563044U;
                 static const AkUniqueID TWOOFWANDS = 28325139U;
                 static const AkUniqueID WHEELOFFORTUNE = 3929082740U;
             } // namespace STATE
@@ -290,6 +333,7 @@ namespace AK
             {
                 static const AkUniqueID GENERATIVE = 3430716699U;
                 static const AkUniqueID MAKINGSONG = 410658637U;
+                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID READING = 2208414071U;
             } // namespace STATE
         } // namespace GAMESTAGE
@@ -302,6 +346,7 @@ namespace AK
             {
                 static const AkUniqueID CUPS = 3817145194U;
                 static const AkUniqueID MAJORARCANA = 798166914U;
+                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID NULL = 784127654U;
                 static const AkUniqueID PENTACLES = 495557850U;
                 static const AkUniqueID SWORDS = 361241855U;
@@ -319,6 +364,7 @@ namespace AK
                 static const AkUniqueID MAJOR1 = 2247382893U;
                 static const AkUniqueID MAJOR2 = 2247382894U;
                 static const AkUniqueID MINOR = 3499807024U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace GENERATIVEKEY1
 
@@ -332,6 +378,7 @@ namespace AK
                 static const AkUniqueID MAJOR1 = 2247382893U;
                 static const AkUniqueID MAJOR2 = 2247382894U;
                 static const AkUniqueID MINOR = 3499807024U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace GENERATIVEKEY2
 
@@ -345,6 +392,7 @@ namespace AK
                 static const AkUniqueID MAJOR1 = 2247382893U;
                 static const AkUniqueID MAJOR2 = 2247382894U;
                 static const AkUniqueID MINOR = 3499807024U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace GENERATIVEKEY3
 
@@ -355,6 +403,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID MAIN = 3161908922U;
+                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID VAMP = 3908339577U;
             } // namespace STATE
         } // namespace GENERATIVEPART
