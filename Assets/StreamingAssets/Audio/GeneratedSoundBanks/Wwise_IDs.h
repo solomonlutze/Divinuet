@@ -144,6 +144,7 @@ namespace AK
         static const AkUniqueID THESUN = 2005699188U;
         static const AkUniqueID THREEOFCUPS = 1101082655U;
         static const AkUniqueID THREEOFSWORDS = 3694586202U;
+        static const AkUniqueID THREEOFWANDS = 3152017173U;
         static const AkUniqueID TWOOFCUPS = 1765113981U;
         static const AkUniqueID TWOOFSWORDS = 2916563044U;
         static const AkUniqueID TWOOFWANDS = 28325139U;
@@ -318,6 +319,7 @@ namespace AK
                 static const AkUniqueID THESUN = 2005699188U;
                 static const AkUniqueID THREEOFCUPS = 1101082655U;
                 static const AkUniqueID THREEOFSWORDS = 3694586202U;
+                static const AkUniqueID THREEOFWANDS = 3152017173U;
                 static const AkUniqueID TWOOFCUPS = 1765113981U;
                 static const AkUniqueID TWOOFSWORDS = 2916563044U;
                 static const AkUniqueID TWOOFWANDS = 28325139U;

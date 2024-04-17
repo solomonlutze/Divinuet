@@ -108,6 +108,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3072025101	Card3Minor			\Default Work Unit\GenerativeKeys\Card3\Card3Minor	
 	3108369491	Card3Dorian			\Default Work Unit\GenerativeKeys\Card3\Card3Dorian	
 	3113582184	Card3Swords			\Default Work Unit\GenerativeCardSuits\Card3\Card3Swords	
+	3152017173	ThreeOfWands			\Default Work Unit\CardEvents\Wands\ThreeOfWands	
 	3161908922	Main			\Default Work Unit\GenerativePart\Main	
 	3258053151	TheHangedMan			\Default Work Unit\CardEvents\Major Arcana\TheHangedMan	
 	3298030721	Card3Cups			\Default Work Unit\GenerativeCardSuits\Card3\Card3Cups	
@@ -183,6 +184,7 @@ State	ID	Name	State Group			Notes
 	2722779265	QueenOfCups	DuringReading			
 	2916563044	TwoOfSwords	DuringReading			
 	3022449515	FiveOfWands	DuringReading			
+	3152017173	ThreeOfWands	DuringReading			
 	3258053151	TheHangedMan	DuringReading			
 	3394600732	NineOfSwords	DuringReading			
 	3436307834	SixOfSwords	DuringReading			
@@ -394,6 +396,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40834202	Divinuet_SFX_Bird_13	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Bird_13_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Bird_13		27122
 	44127159	Divinuet_SFX_Bird_2	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Bird_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Bird_2		11983
 	46766814	Wands melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\WandsKalimba_Phrase1_Group8_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Wands melody		503764
+	59199650	Swords melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\SwordsWurli_Phrase1_Group11_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Swords melody		478131
 	60896860	DT_MidPiano	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\DT_MidPiano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Interlude\Interlude_Intro\DT_MidPiano		46651
 	63998512	TwoOfSwords	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\TwoOfSwords_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Swords\TwoOfSwords\TwoOfSwords\TwoOfSwords		734506
 	67502600	Major arcana accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeMajorArcana_Part3_Major1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Major arcana accompaniment		644881
@@ -411,6 +414,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	148910911	Divinuet_SFX_Slide_7	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Slide_7_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Card Slides\Divinuet_SFX_Slide_7		11841
 	149975186	Divinuet_SFX_Branch_10	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Branch_10_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Branch_10		25680
 	152546415	Pentacles accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativePentacles_Part3_Dorian_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Pentacles accompaniment		738012
+	155698405	Swords melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\SwordsWurli_Phrase2_Group1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Swords melody		472150
 	156388177	Cups accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeCups_Part3_Major1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Cups accompaniment		651054
 	161434734	Null accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeNull_Part2_Dorian_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Null accompaniment		554970
 	164019879	!Viola melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Viola_Phrase1_Group13_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\!Viola melody		304575
@@ -454,6 +458,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	294140689	Major arcana accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeMajorArcana_Part1_Major1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Major arcana accompaniment		656025
 	294194485	Cups accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeCups_Part3_Major2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Cups accompaniment		648476
 	296588914	Pentacles melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\PentaclesDulcimer_Phrase3_Group9_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Pentacles melody		570954
+	299503484	Pentacles melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\PentaclesDulcimer_Phrase2_Group11_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Pentacles melody		732139
 	301099300	Divinuet_SFX_Bird_9	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Bird_9_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Bird_9		16797
 	304428339	Judgement	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Judgement_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Major Arcana\Judgement\Judgement\Judgement		791451
 	307227647	Wands accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeWands_Part3_Major1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Wands accompaniment		653552
@@ -502,6 +507,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	510243111	Divinuet_SFX_Branch_3	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Branch_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Branch_3		14755
 	516145389	TheMoon	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\TheMoon_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Major Arcana\TheMoon\TheMoon\TheMoon		695921
 	526823866	Cups accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeCups_Part1_Major2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Cups accompaniment		631407
+	535985249	ThreeOfWands	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\ThreeOfWands_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Wands\ThreeOfWands\ThreeOfWands\ThreeOfWands		822614
 	544176653	ThreeofSwords	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\ThreeofSwords_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Swords\ThreeOfSwords\ThreeofSwords\ThreeofSwords		893315
 	544869689	Divinuet_SFX_Branch_8	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Branch_8_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Branch_8		21416
 	550906683	AceOfSwords	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\AceOfSwords_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Swords\AceOfSwords\AceOfSwords\AceOfSwords		738392
@@ -521,6 +527,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	614658395	!Viola melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Viola_Phrase3_Group1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\!Viola melody		273386
 	616349379	SevenOfCups	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\SevenOfCups_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Cups\SevenOfCups\SevenOfCups\SevenOfCups		784503
 	619720160	Wands accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeWands_Part1_Minor_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Wands accompaniment		645686
+	619765691	Pentacles melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\PentaclesDulcimer_Phrase1_Group11_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Pentacles melody		668001
 	620254185	MakingSongToGenerativeTransition	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\MakingSongToGenerativeTransition_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\MakingSong\MakingSongToGenerativeTransition\MakingSongToGenerativeTransition		136236
 	624044825	Pentacles melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\PentaclesDulcimer_Phrase1_Group9_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Pentacles melody		622295
 	627476462	Major arcana accompaniment	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\GenerativeMajorArcana_Part1_Minor_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\Major arcana accompaniment		643787
@@ -549,6 +556,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	720383636	Middle	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\DT_MidPiano2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Interlude\Interlude\Middle		47507
 	725205681	EightofCups	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\EightofCups_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Cups\EightOfCups\EightofCups\EightofCups		528965
 	727053384	High	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\DT_HighPipePiano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Interlude\Interlude\High		99445
+	732400693	Swords melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\SwordsWurli_Phrase2_Group11_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Swords melody		517443
 	737891992	Swords melody	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\SwordsWurli_Phrase3_Group9_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Swords melody		452720
 	739936188	SevenOfSwords	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\SevenOfSwords_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Swords\SevenOfSwords\SevenOfSwords\SevenOfSwords		835851
 	740794188	Divinuet_SFX_Branch_5	C:\Users\megan\WwiseProjects\Divinuet\.cache\Mac\SFX\Divinuet_SFX_Branch_5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Branch_5		19563

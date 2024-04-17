@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="520381303">
+		<SoundBank Id="1661994096" Language="SFX" Hash="2196530351">
 			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
 			<ShortName>Soundbank</ShortName>
 			<Path>Soundbank.bnk</Path>
@@ -822,6 +822,10 @@
 							<ShortName>WandsKalimba_Phrase1_Group8.wav</ShortName>
 							<Path>SFX\WandsKalimba_Phrase1_Group8_9EDFC787.wem</Path>
 						</File>
+						<File Id="59199650" Language="SFX">
+							<ShortName>SwordsWurli_Phrase1_Group11.wav</ShortName>
+							<Path>SFX\SwordsWurli_Phrase1_Group11_9EDFC787.wem</Path>
+						</File>
 						<File Id="60896860" Language="SFX">
 							<ShortName>DT_MidPiano.wav</ShortName>
 							<Path>SFX\DT_MidPiano_9EDFC787.wem</Path>
@@ -877,6 +881,10 @@
 						<File Id="152546415" Language="SFX">
 							<ShortName>GenerativePentacles_Part3_Dorian.wav</ShortName>
 							<Path>SFX\GenerativePentacles_Part3_Dorian_9EDFC787.wem</Path>
+						</File>
+						<File Id="155698405" Language="SFX">
+							<ShortName>SwordsWurli_Phrase2_Group1.wav</ShortName>
+							<Path>SFX\SwordsWurli_Phrase2_Group1_9EDFC787.wem</Path>
 						</File>
 						<File Id="156388177" Language="SFX">
 							<ShortName>GenerativeCups_Part3_Major1.wav</ShortName>
@@ -1030,6 +1038,10 @@
 							<ShortName>PentaclesDulcimer_Phrase3_Group9.wav</ShortName>
 							<Path>SFX\PentaclesDulcimer_Phrase3_Group9_9EDFC787.wem</Path>
 						</File>
+						<File Id="299503484" Language="SFX">
+							<ShortName>PentaclesDulcimer_Phrase2_Group11.wav</ShortName>
+							<Path>SFX\PentaclesDulcimer_Phrase2_Group11_9EDFC787.wem</Path>
+						</File>
 						<File Id="304428339" Language="SFX">
 							<ShortName>Judgement.wav</ShortName>
 							<Path>SFX\Judgement_9EDFC787.wem</Path>
@@ -1178,6 +1190,10 @@
 							<ShortName>GenerativeCups_Part1_Major2.wav</ShortName>
 							<Path>SFX\GenerativeCups_Part1_Major2_9EDFC787.wem</Path>
 						</File>
+						<File Id="535985249" Language="SFX">
+							<ShortName>ThreeOfWands.wav</ShortName>
+							<Path>SFX\ThreeOfWands_9EDFC787.wem</Path>
+						</File>
 						<File Id="544176653" Language="SFX">
 							<ShortName>ThreeofSwords.wav</ShortName>
 							<Path>SFX\ThreeofSwords_9EDFC787.wem</Path>
@@ -1241,6 +1257,10 @@
 						<File Id="619720160" Language="SFX">
 							<ShortName>GenerativeWands_Part1_Minor.wav</ShortName>
 							<Path>SFX\GenerativeWands_Part1_Minor_9EDFC787.wem</Path>
+						</File>
+						<File Id="619765691" Language="SFX">
+							<ShortName>PentaclesDulcimer_Phrase1_Group11.wav</ShortName>
+							<Path>SFX\PentaclesDulcimer_Phrase1_Group11_9EDFC787.wem</Path>
 						</File>
 						<File Id="620254185" Language="SFX">
 							<ShortName>MakingSongToGenerativeTransition.wav</ShortName>
@@ -1345,6 +1365,10 @@
 						<File Id="727053384" Language="SFX">
 							<ShortName>DT_HighPipePiano.wav</ShortName>
 							<Path>SFX\DT_HighPipePiano_9EDFC787.wem</Path>
+						</File>
+						<File Id="732400693" Language="SFX">
+							<ShortName>SwordsWurli_Phrase2_Group11.wav</ShortName>
+							<Path>SFX\SwordsWurli_Phrase2_Group11_9EDFC787.wem</Path>
 						</File>
 						<File Id="737891992" Language="SFX">
 							<ShortName>SwordsWurli_Phrase3_Group9.wav</ShortName>
@@ -1682,6 +1706,10 @@
 							<ShortName>WandsKalimba_Phrase1_Group8.wav</ShortName>
 							<Path>SFX\WandsKalimba_Phrase1_Group8_9EDFC787.wem</Path>
 						</File>
+						<File Id="59199650" Language="SFX">
+							<ShortName>SwordsWurli_Phrase1_Group11.wav</ShortName>
+							<Path>SFX\SwordsWurli_Phrase1_Group11_9EDFC787.wem</Path>
+						</File>
 						<File Id="60896860" Language="SFX">
 							<ShortName>DT_MidPiano.wav</ShortName>
 							<Path>SFX\DT_MidPiano_9EDFC787.wem</Path>
@@ -1737,6 +1765,10 @@
 						<File Id="152546415" Language="SFX">
 							<ShortName>GenerativePentacles_Part3_Dorian.wav</ShortName>
 							<Path>SFX\GenerativePentacles_Part3_Dorian_9EDFC787.wem</Path>
+						</File>
+						<File Id="155698405" Language="SFX">
+							<ShortName>SwordsWurli_Phrase2_Group1.wav</ShortName>
+							<Path>SFX\SwordsWurli_Phrase2_Group1_9EDFC787.wem</Path>
 						</File>
 						<File Id="156388177" Language="SFX">
 							<ShortName>GenerativeCups_Part3_Major1.wav</ShortName>
@@ -1890,6 +1922,10 @@
 							<ShortName>PentaclesDulcimer_Phrase3_Group9.wav</ShortName>
 							<Path>SFX\PentaclesDulcimer_Phrase3_Group9_9EDFC787.wem</Path>
 						</File>
+						<File Id="299503484" Language="SFX">
+							<ShortName>PentaclesDulcimer_Phrase2_Group11.wav</ShortName>
+							<Path>SFX\PentaclesDulcimer_Phrase2_Group11_9EDFC787.wem</Path>
+						</File>
 						<File Id="304428339" Language="SFX">
 							<ShortName>Judgement.wav</ShortName>
 							<Path>SFX\Judgement_9EDFC787.wem</Path>
@@ -2038,6 +2074,10 @@
 							<ShortName>GenerativeCups_Part1_Major2.wav</ShortName>
 							<Path>SFX\GenerativeCups_Part1_Major2_9EDFC787.wem</Path>
 						</File>
+						<File Id="535985249" Language="SFX">
+							<ShortName>ThreeOfWands.wav</ShortName>
+							<Path>SFX\ThreeOfWands_9EDFC787.wem</Path>
+						</File>
 						<File Id="544176653" Language="SFX">
 							<ShortName>ThreeofSwords.wav</ShortName>
 							<Path>SFX\ThreeofSwords_9EDFC787.wem</Path>
@@ -2101,6 +2141,10 @@
 						<File Id="619720160" Language="SFX">
 							<ShortName>GenerativeWands_Part1_Minor.wav</ShortName>
 							<Path>SFX\GenerativeWands_Part1_Minor_9EDFC787.wem</Path>
+						</File>
+						<File Id="619765691" Language="SFX">
+							<ShortName>PentaclesDulcimer_Phrase1_Group11.wav</ShortName>
+							<Path>SFX\PentaclesDulcimer_Phrase1_Group11_9EDFC787.wem</Path>
 						</File>
 						<File Id="620254185" Language="SFX">
 							<ShortName>MakingSongToGenerativeTransition.wav</ShortName>
@@ -2205,6 +2249,10 @@
 						<File Id="727053384" Language="SFX">
 							<ShortName>DT_HighPipePiano.wav</ShortName>
 							<Path>SFX\DT_HighPipePiano_9EDFC787.wem</Path>
+						</File>
+						<File Id="732400693" Language="SFX">
+							<ShortName>SwordsWurli_Phrase2_Group11.wav</ShortName>
+							<Path>SFX\SwordsWurli_Phrase2_Group11_9EDFC787.wem</Path>
 						</File>
 						<File Id="737891992" Language="SFX">
 							<ShortName>SwordsWurli_Phrase3_Group9.wav</ShortName>
@@ -2766,6 +2814,11 @@
 										<File Id="677784470"/>
 									</Media>
 								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D0CBCD33-AF48-4DF5-A746-90FA2DE5EBBB}">
+									<Media>
+										<File Id="535985249"/>
+									</Media>
+								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{66090302-C438-448B-8A5E-6D1D40BD8BF4}">
@@ -2779,6 +2832,7 @@
 										<File Id="31266562"/>
 										<File Id="32455599"/>
 										<File Id="46766814"/>
+										<File Id="59199650"/>
 										<File Id="67502600"/>
 										<File Id="71147250"/>
 										<File Id="107998518"/>
@@ -2788,6 +2842,7 @@
 										<File Id="133440566"/>
 										<File Id="136069082"/>
 										<File Id="152546415"/>
+										<File Id="155698405"/>
 										<File Id="156388177"/>
 										<File Id="161434734"/>
 										<File Id="164019879"/>
@@ -2815,6 +2870,7 @@
 										<File Id="294140689"/>
 										<File Id="294194485"/>
 										<File Id="296588914"/>
+										<File Id="299503484"/>
 										<File Id="307227647"/>
 										<File Id="329137962"/>
 										<File Id="335426120"/>
@@ -2847,6 +2903,7 @@
 										<File Id="614501011"/>
 										<File Id="614658395"/>
 										<File Id="619720160"/>
+										<File Id="619765691"/>
 										<File Id="624044825"/>
 										<File Id="627476462"/>
 										<File Id="627831526"/>
@@ -2863,6 +2920,7 @@
 										<File Id="686670861"/>
 										<File Id="696998161"/>
 										<File Id="708443093"/>
+										<File Id="732400693"/>
 										<File Id="737891992"/>
 										<File Id="769702877"/>
 										<File Id="773563290"/>
@@ -2927,6 +2985,7 @@
 										<File Id="31266562"/>
 										<File Id="32455599"/>
 										<File Id="46766814"/>
+										<File Id="59199650"/>
 										<File Id="67502600"/>
 										<File Id="71147250"/>
 										<File Id="107998518"/>
@@ -2936,6 +2995,7 @@
 										<File Id="133440566"/>
 										<File Id="136069082"/>
 										<File Id="152546415"/>
+										<File Id="155698405"/>
 										<File Id="156388177"/>
 										<File Id="161434734"/>
 										<File Id="164019879"/>
@@ -2963,6 +3023,7 @@
 										<File Id="294140689"/>
 										<File Id="294194485"/>
 										<File Id="296588914"/>
+										<File Id="299503484"/>
 										<File Id="307227647"/>
 										<File Id="329137962"/>
 										<File Id="335426120"/>
@@ -2995,6 +3056,7 @@
 										<File Id="614501011"/>
 										<File Id="614658395"/>
 										<File Id="619720160"/>
+										<File Id="619765691"/>
 										<File Id="624044825"/>
 										<File Id="627476462"/>
 										<File Id="627831526"/>
@@ -3011,6 +3073,7 @@
 										<File Id="686670861"/>
 										<File Id="696998161"/>
 										<File Id="708443093"/>
+										<File Id="732400693"/>
 										<File Id="737891992"/>
 										<File Id="769702877"/>
 										<File Id="773563290"/>
@@ -3243,6 +3306,12 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
 						<ActionSetStateEntry Id="3694586202" Name="ThreeOfSwords" ObjectPath="\States\Default Work Unit\DuringReading\ThreeOfSwords"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3152017173" Name="ThreeOfWands" ObjectPath="\Events\Default Work Unit\CardEvents\Wands\ThreeOfWands" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
+						<ActionSetStateEntry Id="3152017173" Name="ThreeOfWands" ObjectPath="\States\Default Work Unit\DuringReading\ThreeOfWands"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="1765113981" Name="TwoOfCups" ObjectPath="\Events\Default Work Unit\CardEvents\Cups\TwoOfCups" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
@@ -3493,6 +3562,7 @@
 						<State Id="925615014" Name="EightOfWands" ObjectPath="\States\Default Work Unit\DuringReading\EightOfWands"/>
 						<State Id="1607130542" Name="Judgement" ObjectPath="\States\Default Work Unit\DuringReading\Judgement"/>
 						<State Id="2428720959" Name="SixOfCups" ObjectPath="\States\Default Work Unit\DuringReading\SixOfCups"/>
+						<State Id="3152017173" Name="ThreeOfWands" ObjectPath="\States\Default Work Unit\DuringReading\ThreeOfWands"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="1008270286" Name="Strength" ObjectPath="\States\Default Work Unit\DuringReading\Strength">
@@ -3706,6 +3776,9 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3113582184" Name="Card3Swords" ObjectPath="\States\Default Work Unit\GenerativeCardSuits\Card3Suit\Card3Swords">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3152017173" Name="ThreeOfWands" ObjectPath="\States\Default Work Unit\DuringReading\ThreeOfWands">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3161908922" Name="Main" ObjectPath="\States\Default Work Unit\GenerativePart\Main">
