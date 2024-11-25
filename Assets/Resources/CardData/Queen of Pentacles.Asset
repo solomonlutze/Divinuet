@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: Queen of Pentacles
+  m_EditorClassIdentifier: 
+  cardName: Queen of Pentacles
+  order: 76
+  suit: 3
+  cardPicture: {fileID: 2800000, guid: ac0528a7bd8f8b943b0d122b679b6b81, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: ac0528a7bd8f8b943b0d122b679b6b81, type: 3}
+  cardLongDescription: the queen of pentacles is a queen!^ of pentacles.^ also sometimes
+    called coins.^ we love her.
+  cardShortDescription: 'nurturing
+
+    loyal
+
+    practical'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f238c0f4cca2b3641b4241eaf2bd47bb,
+      type: 2}
+  clipDuration: 43
+  thematicGroup: 4
+  videoType: 2

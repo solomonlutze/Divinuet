@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID ACCOMPANIMENTWANDS = 816211659U;
         static const AkUniqueID ACEOFCUPS = 2478979318U;
         static const AkUniqueID ACEOFSWORDS = 376576603U;
+        static const AkUniqueID ACEOFWANDS = 1206209030U;
         static const AkUniqueID AFTERREADINGAMBIENCESTART = 2058034069U;
         static const AkUniqueID CARD1CUPS = 1213864503U;
         static const AkUniqueID CARD1DORIAN = 3649626589U;
@@ -97,6 +98,7 @@ namespace AK
         static const AkUniqueID EIGHTOFWANDS = 925615014U;
         static const AkUniqueID FIVEOFCUPS = 679328597U;
         static const AkUniqueID FIVEOFWANDS = 3022449515U;
+        static const AkUniqueID FOUROFCUPS = 2710136177U;
         static const AkUniqueID FOUROFSWORDS = 112666488U;
         static const AkUniqueID INTERLUDE = 1770673853U;
         static const AkUniqueID JUDGEMENT = 1607130542U;
@@ -110,9 +112,12 @@ namespace AK
         static const AkUniqueID NINEOFPENTACLES = 1963057671U;
         static const AkUniqueID NINEOFSWORDS = 3394600732U;
         static const AkUniqueID NULL = 784127654U;
+        static const AkUniqueID PAGEOFCUPS = 3090537132U;
         static const AkUniqueID PENTACLES = 495557850U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID QUEENOFCUPS = 2722779265U;
+        static const AkUniqueID QUEENOFPENTACLES = 1652042331U;
+        static const AkUniqueID QUEENOFSWORDS = 1228487272U;
         static const AkUniqueID QUEENOFWANDS = 1734100207U;
         static const AkUniqueID READINGSTART = 1965947029U;
         static const AkUniqueID SEVENOFCUPS = 884571752U;
@@ -138,10 +143,12 @@ namespace AK
         static const AkUniqueID THEHERMIT = 1490823267U;
         static const AkUniqueID THEHIEROPHANT = 4170319004U;
         static const AkUniqueID THEHIGHPRIESTESS = 3676275462U;
+        static const AkUniqueID THELOVERS = 3651489283U;
         static const AkUniqueID THEMAGICIAN = 1726594133U;
         static const AkUniqueID THEMOON = 2075671581U;
         static const AkUniqueID THESTAR = 2436895318U;
         static const AkUniqueID THESUN = 2005699188U;
+        static const AkUniqueID THETOWER = 1397189013U;
         static const AkUniqueID THREEOFCUPS = 1101082655U;
         static const AkUniqueID THREEOFSWORDS = 3694586202U;
         static const AkUniqueID THREEOFWANDS = 3152017173U;
@@ -277,6 +284,7 @@ namespace AK
             {
                 static const AkUniqueID ACEOFCUPS = 2478979318U;
                 static const AkUniqueID ACEOFSWORDS = 376576603U;
+                static const AkUniqueID ACEOFWANDS = 1206209030U;
                 static const AkUniqueID AFTERREADINGBED = 1900785500U;
                 static const AkUniqueID DEATH = 779278001U;
                 static const AkUniqueID EIGHTOFCUPS = 36489238U;
@@ -285,6 +293,7 @@ namespace AK
                 static const AkUniqueID EIGHTOFWANDS = 925615014U;
                 static const AkUniqueID FIVEOFCUPS = 679328597U;
                 static const AkUniqueID FIVEOFWANDS = 3022449515U;
+                static const AkUniqueID FOUROFCUPS = 2710136177U;
                 static const AkUniqueID FOUROFSWORDS = 112666488U;
                 static const AkUniqueID INTERLUDE = 1770673853U;
                 static const AkUniqueID JUDGEMENT = 1607130542U;
@@ -294,7 +303,10 @@ namespace AK
                 static const AkUniqueID NINEOFPENTACLES = 1963057671U;
                 static const AkUniqueID NINEOFSWORDS = 3394600732U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PAGEOFCUPS = 3090537132U;
                 static const AkUniqueID QUEENOFCUPS = 2722779265U;
+                static const AkUniqueID QUEENOFPENTACLES = 1652042331U;
+                static const AkUniqueID QUEENOFSWORDS = 1228487272U;
                 static const AkUniqueID QUEENOFWANDS = 1734100207U;
                 static const AkUniqueID SEVENOFCUPS = 884571752U;
                 static const AkUniqueID SEVENOFPENTACLES = 4205938704U;
@@ -313,10 +325,12 @@ namespace AK
                 static const AkUniqueID THEHERMIT = 1490823267U;
                 static const AkUniqueID THEHIEROPHANT = 4170319004U;
                 static const AkUniqueID THEHIGHPRIESTESS = 3676275462U;
+                static const AkUniqueID THELOVERS = 3651489283U;
                 static const AkUniqueID THEMAGICIAN = 1726594133U;
                 static const AkUniqueID THEMOON = 2075671581U;
                 static const AkUniqueID THESTAR = 2436895318U;
                 static const AkUniqueID THESUN = 2005699188U;
+                static const AkUniqueID THETOWER = 1397189013U;
                 static const AkUniqueID THREEOFCUPS = 1101082655U;
                 static const AkUniqueID THREEOFSWORDS = 3694586202U;
                 static const AkUniqueID THREEOFWANDS = 3152017173U;
