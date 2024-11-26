@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: Knight of Cups
+  m_EditorClassIdentifier: 
+  cardName: Knight of Cups
+  order: 47
+  suit: 1
+  cardPicture: {fileID: 2800000, guid: 383abbf8f1e8be54f83fcfabb386dbf7, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: 383abbf8f1e8be54f83fcfabb386dbf7, type: 3}
+  cardLongDescription: 'Knight of Cups: charm, romance, idealizing
+
+
+    i hate this guy.^ i hate him so much.^ why are the knights like this?^ queens
+    and pages rule imho'
+  cardShortDescription: "charm \nromance\nidealizing"
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ff7c103b841499047b967bb6545ece22,
+      type: 2}
+  clipDuration: 48
+  thematicGroup: 11
+  videoType: 1

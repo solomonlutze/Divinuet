@@ -45,16 +45,21 @@ Event	ID	Name			Wwise Object Path	Notes
 	884571752	SevenOfCups			\Default Work Unit\CardEvents\Cups\SevenOfCups	
 	905849762	Card1Swords			\Default Work Unit\GenerativeCardSuits\Card1\Card1Swords	
 	925615014	EightOfWands			\Default Work Unit\CardEvents\Wands\EightOfWands	
+	952941314	TenOfPentacles			\Default Work Unit\CardEvents\Pentacles\TenOfPentacles	
+	978542043	NineOfWands			\Default Work Unit\CardEvents\Wands\NineOfWands	
 	1008270286	Strength			\Default Work Unit\CardEvents\Major Arcana\Strength	
 	1064961332	Card2Major2			\Default Work Unit\GenerativeKeys\Card2\Card2Major2	
 	1064961335	Card2Major1			\Default Work Unit\GenerativeKeys\Card2\Card2Major1	
+	1094809470	KnightOfCups			\Default Work Unit\CardEvents\Cups\KnightOfCups	
 	1101082655	ThreeOfCups			\Default Work Unit\CardEvents\Cups\ThreeOfCups	
 	1206209030	AceOfWands			\Default Work Unit\CardEvents\Wands\AceOfWands	
 	1213864503	Card1Cups			\Default Work Unit\GenerativeCardSuits\Card1\Card1Cups	
 	1228487272	QueenOfSwords			\Default Work Unit\CardEvents\Swords\QueenOfSwords	
 	1265574636	Card1Major1			\Default Work Unit\GenerativeKeys\Card1\Card1Major1	
 	1265574639	Card1Major2			\Default Work Unit\GenerativeKeys\Card1\Card1Major2	
+	1281506554	TenOfWands			\Default Work Unit\CardEvents\Wands\TenOfWands	
 	1323396928	Card2Wands			\Default Work Unit\GenerativeCardSuits\Card2\Card2Wands	
+	1354526533	NineOfCups			\Default Work Unit\CardEvents\Cups\NineOfCups	
 	1397189013	TheTower			\Default Work Unit\CardEvents\Major Arcana\TheTower	
 	1462743847	Temperance			\Default Work Unit\CardEvents\Major Arcana\Temperance	
 	1490823267	TheHermit			\Default Work Unit\CardEvents\Major Arcana\TheHermit	
@@ -140,6 +145,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3909883483	Card3Pentacles			\Default Work Unit\GenerativeCardSuits\Card3\Card3Pentacles	
 	3929082740	WheelOfFortune			\Default Work Unit\CardEvents\Major Arcana\WheelOfFortune	
 	3939640691	Card1Minor			\Default Work Unit\GenerativeKeys\Card1\Card1Minor	
+	4137203499	FourOfPentacles			\Default Work Unit\CardEvents\Pentacles\FourOfPentacles	
 	4145272430	CardSlide			\Default Work Unit\SFXEvents\CardSlide	
 	4170319004	TheHierophant			\Default Work Unit\CardEvents\Major Arcana\TheHierophant	
 	4181689965	TheEmpress			\Default Work Unit\CardEvents\Major Arcana\TheEmpress	
@@ -166,10 +172,15 @@ State	ID	Name	State Group			Notes
 	779278001	Death	DuringReading			
 	884571752	SevenOfCups	DuringReading			
 	925615014	EightOfWands	DuringReading			
+	952941314	TenOfPentacles	DuringReading			
+	978542043	NineOfWands	DuringReading			
 	1008270286	Strength	DuringReading			
+	1094809470	KnightOfCups	DuringReading			
 	1101082655	ThreeOfCups	DuringReading			
 	1206209030	AceOfWands	DuringReading			
 	1228487272	QueenOfSwords	DuringReading			
+	1281506554	TenOfWands	DuringReading			
+	1354526533	NineOfCups	DuringReading			
 	1397189013	TheTower	DuringReading			
 	1462743847	Temperance	DuringReading			
 	1490823267	TheHermit	DuringReading			
@@ -208,6 +219,7 @@ State	ID	Name	State Group			Notes
 	3676275462	TheHighPriestess	DuringReading			
 	3694586202	ThreeOfSwords	DuringReading			
 	3929082740	WheelOfFortune	DuringReading			
+	4137203499	FourOfPentacles	DuringReading			
 	4170319004	TheHierophant	DuringReading			
 	4181689965	TheEmpress	DuringReading			
 	4205938704	SevenOfPentacles	DuringReading			
@@ -388,6 +400,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	60896860	DT_MidPiano	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\DT_MidPiano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Interlude\Interlude_Intro\DT_MidPiano		46651
 	63998512	TwoOfSwords	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\TwoOfSwords_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Swords\TwoOfSwords\TwoOfSwords\TwoOfSwords		734506
 	67502600	Major arcana accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeMajorArcana_Part3_Major1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Major arcana accompaniment		644881
+	69569127	FourOfPentacles	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\FourOfPentacles_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Pentacles\FourOfPentacles\FourOfPentacles\FourOfPentacles		729491
 	71147250	!Viola melody	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\Viola_Phrase2_Group8_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\!Viola melody		333851
 	80398774	FiveofCups	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\FiveofCups_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Cups\FiveOfCups\FiveOfCups\FiveofCups		748105
 	99072166	Divinuet_SFX_Slide_5	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\Divinuet_SFX_Slide_5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Card Slides\Divinuet_SFX_Slide_5		12183
@@ -502,9 +515,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	544869689	Divinuet_SFX_Branch_8	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\Divinuet_SFX_Branch_8_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Branch_8		21416
 	550906683	AceOfSwords	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\AceOfSwords_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Swords\AceOfSwords\AceOfSwords\AceOfSwords		738392
 	551223743	!Viola melody	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\Viola_Phrase1_Group8_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card1\!Viola melody		348475
+	560504064	NineOfWands	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\NineOfWands_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Wands\NineOfWands\NineOfWands\NineOfWands		846009
 	576684077	KingOfCups	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\KingOfCups_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Cups\KingOfCups\KingOfCups\KingOfCups		656382
 	582367264	Intro	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeNull_Intro_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Intro\Intro		193519
 	586071285	Wands accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeWands_Part2_Dorian_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Wands accompaniment		652400
+	586475881	TenOfPentacles	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\TenOfPentacles_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Pentacles\TenOfPentacles\TenOfPentacles\TenOfPentacles		964283
 	590389761	Cups melody	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\CupsPiano_Phrase3_Group11_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Cups melody		589566
 	590887813	NineOfPentacles	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\NineOfPentacles_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Pentacles\NineOfPentacles\NineOfPentacles\NineOfPentacles		920860
 	599810603	Swords accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeSwords_Part2_Major1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Swords accompaniment		570794
@@ -539,6 +554,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	684459571	Cups melody	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\CupsPiano_Phrase2_Group11_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Cups melody		612269
 	684660360	Pentacles accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativePentacles_Part2_Major1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Pentacles accompaniment		693306
 	686670861	Null accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeNull_Part3_Minor_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Null accompaniment		579271
+	701874513	KnightOfCups	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\KnightOfCups_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Cups\KnightOfCups\KnightOfCups\KnightOfCups		987381
 	708443093	Pentacles accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativePentacles_Part2_Dorian_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Pentacles accompaniment		689143
 	720383636	Middle	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\DT_MidPiano2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Interlude\Interlude\Middle		47507
 	725205681	EightofCups	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\EightofCups_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Cups\EightOfCups\EightofCups\EightofCups		528965
@@ -592,6 +608,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	927714190	TheHangedMan	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\TheHangedMan_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Major Arcana\TheHangedMan\TheHangedMan\TheHangedMan		793671
 	933716518	Cups accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeCups_Part3_Dorian_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\Cups accompaniment		634438
 	933849671	Major arcana melody	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\MajorArcanaHarp_Phrase2_Group11_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Major arcana melody		704780
+	944726527	TenOfWands	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\TenOfWands_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Wands\TenOfWands\TenOfWands\TenOfWands		851456
 	945709027	Intro	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativePentacles_Intro_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Intro\Intro		234874
 	952135827	Null accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeNull_Part2_Minor_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Null accompaniment		553986
 	957206922	!Viola melody	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\Viola_Phrase2_Group9_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\!Viola melody		362077
@@ -622,6 +639,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1051404422	Wands accompaniment	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\GenerativeWands_Part2_Major2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card2\Wands accompaniment		651796
 	1053124048	!Viola melody	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\Viola_Phrase3_Group10_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Generative\Generative_Main\Card3\!Viola melody		325847
 	1054585838	High	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\DT_HighFlute_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Interlude\Interlude\High		78859
+	1062687648	NineofCups	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\NineofCups_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Cups\NineOfCups\NineofCups\NineofCups		737178
 	1067456449	Divinuet_SFX_Branch_1	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\Divinuet_SFX_Branch_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu Background\ForestNoises\Divinuet_SFX_Branch_1		13877
 	1068686513	TheLovers	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\TheLovers_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Major Arcana\TheLovers\TheLovers\TheLovers		815902
 	1068886985	SixOfSwords	M:\WwiseProjects\Divinuet\.cache\Windows\SFX\SixOfSwords_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusic\Reading\Swords\SixOfSwords\SixOfSwords\SixOfSwords		658647

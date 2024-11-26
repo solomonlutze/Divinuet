@@ -201,7 +201,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 947868757}
   m_HandleRect: {fileID: 947868756}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DEBUG_skipReading: 0
-  DEBUG_skipAllReadings: 1
+  DEBUG_skipAllReadings: 0
   DEBUG_SaveReadingImmediately: 0
   DEBUG_EnableReadingGeneration: 0
   deckCardPrefab: {fileID: 4088565087975016767, guid: f17d95d6ec51d44d68dc02e5f2e3cb99,
@@ -12898,7 +12898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.00076253666}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &798896212

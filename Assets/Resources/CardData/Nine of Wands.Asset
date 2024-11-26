@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: Nine of Wands
+  m_EditorClassIdentifier: 
+  cardName: Nine of Wands
+  order: 58
+  suit: 4
+  cardPicture: {fileID: 2800000, guid: 52fd3ac18d2f19348b18e51517a9a798, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: 52fd3ac18d2f19348b18e51517a9a798, type: 3}
+  cardLongDescription: 'Nine of Wands: resilience, perseverance, bravery^
+
+
+    look at you.^ you are so brave.^ we''re all so proud of you.^ the bravest of us
+    all.^ braver than the troops'
+  cardShortDescription: 'resilience
+
+    perseverance
+
+    bravery'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1eb454b668d717345b23f1ea40ce3f02,
+      type: 2}
+  clipDuration: 49
+  thematicGroup: 3
+  videoType: 4

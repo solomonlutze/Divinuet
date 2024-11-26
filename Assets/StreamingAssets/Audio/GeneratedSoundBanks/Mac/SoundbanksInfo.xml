@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="1682790731">
+		<SoundBank Id="1661994096" Language="SFX" Hash="2351648551">
 			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
 			<ShortName>Soundbank</ShortName>
 			<Path>Soundbank.bnk</Path>
@@ -612,6 +612,12 @@
 						<ActionSetStateEntry Id="2710136177" Name="FourOfCups" ObjectPath="\States\Default Work Unit\DuringReading\FourOfCups"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="4137203499" Name="FourOfPentacles" ObjectPath="\Events\Default Work Unit\CardEvents\Pentacles\FourOfPentacles" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
+						<ActionSetStateEntry Id="4137203499" Name="FourOfPentacles" ObjectPath="\States\Default Work Unit\DuringReading\FourOfPentacles"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="112666488" Name="FourOfSwords" ObjectPath="\Events\Default Work Unit\CardEvents\Swords\FourOfSwords" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="112666488" Name="FourOfSwords" ObjectPath="\States\Default Work Unit\DuringReading\FourOfSwords"/>
@@ -645,6 +651,12 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
 						<ActionSetStateEntry Id="3530681053" Name="KingOfSwords" ObjectPath="\States\Default Work Unit\DuringReading\KingOfSwords"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1094809470" Name="KnightOfCups" ObjectPath="\Events\Default Work Unit\CardEvents\Cups\KnightOfCups" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1094809470" Name="KnightOfCups" ObjectPath="\States\Default Work Unit\DuringReading\KnightOfCups"/>
+						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3161908922" Name="Main" ObjectPath="\Events\Default Work Unit\GenerativePart\Main" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
@@ -774,6 +786,12 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="249775224" Name="MenuAmbienceStop" ObjectPath="\Events\Default Work Unit\SFXEvents\MenuAmbienceStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1354526533" Name="NineOfCups" ObjectPath="\Events\Default Work Unit\CardEvents\Cups\NineOfCups" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1354526533" Name="NineOfCups" ObjectPath="\States\Default Work Unit\DuringReading\NineOfCups"/>
+						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="1963057671" Name="NineOfPentacles" ObjectPath="\Events\Default Work Unit\CardEvents\Pentacles\NineOfPentacles" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
@@ -784,6 +802,12 @@
 					<ActionSetState>
 						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
 						<ActionSetStateEntry Id="3394600732" Name="NineOfSwords" ObjectPath="\States\Default Work Unit\DuringReading\NineOfSwords"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="978542043" Name="NineOfWands" ObjectPath="\Events\Default Work Unit\CardEvents\Wands\NineOfWands" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="978542043" Name="NineOfWands" ObjectPath="\States\Default Work Unit\DuringReading\NineOfWands"/>
+						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="784127654" Name="Null" ObjectPath="\Events\Default Work Unit\GenerativeStates\Bass\Null" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
@@ -847,6 +871,10 @@
 						<File Id="67502600" Language="SFX">
 							<ShortName>GenerativeMajorArcana_Part3_Major1.wav</ShortName>
 							<Path>SFX\GenerativeMajorArcana_Part3_Major1_9EDFC787.wem</Path>
+						</File>
+						<File Id="69569127" Language="SFX">
+							<ShortName>FourOfPentacles.wav</ShortName>
+							<Path>SFX\FourOfPentacles_9EDFC787.wem</Path>
 						</File>
 						<File Id="71147250" Language="SFX">
 							<ShortName>Viola_Phrase2_Group8.wav</ShortName>
@@ -1224,6 +1252,10 @@
 							<ShortName>Viola_Phrase1_Group8.wav</ShortName>
 							<Path>SFX\Viola_Phrase1_Group8_9EDFC787.wem</Path>
 						</File>
+						<File Id="560504064" Language="SFX">
+							<ShortName>NineOfWands.wav</ShortName>
+							<Path>SFX\NineOfWands_9EDFC787.wem</Path>
+						</File>
 						<File Id="576684077" Language="SFX">
 							<ShortName>KingOfCups.wav</ShortName>
 							<Path>SFX\KingOfCups_9EDFC787.wem</Path>
@@ -1235,6 +1267,10 @@
 						<File Id="586071285" Language="SFX">
 							<ShortName>GenerativeWands_Part2_Dorian.wav</ShortName>
 							<Path>SFX\GenerativeWands_Part2_Dorian_9EDFC787.wem</Path>
+						</File>
+						<File Id="586475881" Language="SFX">
+							<ShortName>TenOfPentacles.wav</ShortName>
+							<Path>SFX\TenOfPentacles_9EDFC787.wem</Path>
 						</File>
 						<File Id="590389761" Language="SFX">
 							<ShortName>CupsPiano_Phrase3_Group11.wav</ShortName>
@@ -1355,6 +1391,10 @@
 						<File Id="686670861" Language="SFX">
 							<ShortName>GenerativeNull_Part3_Minor.wav</ShortName>
 							<Path>SFX\GenerativeNull_Part3_Minor_9EDFC787.wem</Path>
+						</File>
+						<File Id="701874513" Language="SFX">
+							<ShortName>KnightOfCups.wav</ShortName>
+							<Path>SFX\KnightOfCups_9EDFC787.wem</Path>
 						</File>
 						<File Id="708443093" Language="SFX">
 							<ShortName>GenerativePentacles_Part2_Dorian.wav</ShortName>
@@ -1548,6 +1588,10 @@
 							<ShortName>MajorArcanaHarp_Phrase2_Group11.wav</ShortName>
 							<Path>SFX\MajorArcanaHarp_Phrase2_Group11_9EDFC787.wem</Path>
 						</File>
+						<File Id="944726527" Language="SFX">
+							<ShortName>TenOfWands.wav</ShortName>
+							<Path>SFX\TenOfWands_9EDFC787.wem</Path>
+						</File>
 						<File Id="945709027" Language="SFX">
 							<ShortName>GenerativePentacles_Intro.wav</ShortName>
 							<Path>SFX\GenerativePentacles_Intro_9EDFC787.wem</Path>
@@ -1651,6 +1695,10 @@
 						<File Id="1054585838" Language="SFX">
 							<ShortName>DT_HighFlute.wav</ShortName>
 							<Path>SFX\DT_HighFlute_9EDFC787.wem</Path>
+						</File>
+						<File Id="1062687648" Language="SFX">
+							<ShortName>NineofCups.wav</ShortName>
+							<Path>SFX\NineofCups_9EDFC787.wem</Path>
 						</File>
 						<File Id="1068686513" Language="SFX">
 							<ShortName>TheLovers.wav</ShortName>
@@ -1740,6 +1788,10 @@
 							<ShortName>GenerativeMajorArcana_Part3_Major1.wav</ShortName>
 							<Path>SFX\GenerativeMajorArcana_Part3_Major1_9EDFC787.wem</Path>
 						</File>
+						<File Id="69569127" Language="SFX">
+							<ShortName>FourOfPentacles.wav</ShortName>
+							<Path>SFX\FourOfPentacles_9EDFC787.wem</Path>
+						</File>
 						<File Id="71147250" Language="SFX">
 							<ShortName>Viola_Phrase2_Group8.wav</ShortName>
 							<Path>SFX\Viola_Phrase2_Group8_9EDFC787.wem</Path>
@@ -2116,6 +2168,10 @@
 							<ShortName>Viola_Phrase1_Group8.wav</ShortName>
 							<Path>SFX\Viola_Phrase1_Group8_9EDFC787.wem</Path>
 						</File>
+						<File Id="560504064" Language="SFX">
+							<ShortName>NineOfWands.wav</ShortName>
+							<Path>SFX\NineOfWands_9EDFC787.wem</Path>
+						</File>
 						<File Id="576684077" Language="SFX">
 							<ShortName>KingOfCups.wav</ShortName>
 							<Path>SFX\KingOfCups_9EDFC787.wem</Path>
@@ -2127,6 +2183,10 @@
 						<File Id="586071285" Language="SFX">
 							<ShortName>GenerativeWands_Part2_Dorian.wav</ShortName>
 							<Path>SFX\GenerativeWands_Part2_Dorian_9EDFC787.wem</Path>
+						</File>
+						<File Id="586475881" Language="SFX">
+							<ShortName>TenOfPentacles.wav</ShortName>
+							<Path>SFX\TenOfPentacles_9EDFC787.wem</Path>
 						</File>
 						<File Id="590389761" Language="SFX">
 							<ShortName>CupsPiano_Phrase3_Group11.wav</ShortName>
@@ -2247,6 +2307,10 @@
 						<File Id="686670861" Language="SFX">
 							<ShortName>GenerativeNull_Part3_Minor.wav</ShortName>
 							<Path>SFX\GenerativeNull_Part3_Minor_9EDFC787.wem</Path>
+						</File>
+						<File Id="701874513" Language="SFX">
+							<ShortName>KnightOfCups.wav</ShortName>
+							<Path>SFX\KnightOfCups_9EDFC787.wem</Path>
 						</File>
 						<File Id="708443093" Language="SFX">
 							<ShortName>GenerativePentacles_Part2_Dorian.wav</ShortName>
@@ -2440,6 +2504,10 @@
 							<ShortName>MajorArcanaHarp_Phrase2_Group11.wav</ShortName>
 							<Path>SFX\MajorArcanaHarp_Phrase2_Group11_9EDFC787.wem</Path>
 						</File>
+						<File Id="944726527" Language="SFX">
+							<ShortName>TenOfWands.wav</ShortName>
+							<Path>SFX\TenOfWands_9EDFC787.wem</Path>
+						</File>
 						<File Id="945709027" Language="SFX">
 							<ShortName>GenerativePentacles_Intro.wav</ShortName>
 							<Path>SFX\GenerativePentacles_Intro_9EDFC787.wem</Path>
@@ -2543,6 +2611,10 @@
 						<File Id="1054585838" Language="SFX">
 							<ShortName>DT_HighFlute.wav</ShortName>
 							<Path>SFX\DT_HighFlute_9EDFC787.wem</Path>
+						</File>
+						<File Id="1062687648" Language="SFX">
+							<ShortName>NineofCups.wav</ShortName>
+							<Path>SFX\NineofCups_9EDFC787.wem</Path>
 						</File>
 						<File Id="1068686513" Language="SFX">
 							<ShortName>TheLovers.wav</ShortName>
@@ -2874,6 +2946,36 @@
 								<SwitchContainer SwitchValue="{554B1620-9666-4283-AC32-7BDAAE28E38E}">
 									<Media>
 										<File Id="411584312"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F61E1665-91AF-432A-971C-562068E7A344}">
+									<Media>
+										<File Id="1062687648"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{CE7F2AFF-1D22-47DC-A2E2-1DC240C41C15}">
+									<Media>
+										<File Id="701874513"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7ED9E1C0-9E47-4707-843A-EDFC9489B2CA}">
+									<Media>
+										<File Id="560504064"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{6F051885-13D4-4217-AA6A-099080AA9DA4}">
+									<Media>
+										<File Id="944726527"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9AA0E77F-444C-43EA-863D-250D6C9D2873}">
+									<Media>
+										<File Id="586475881"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{6253F4E6-E596-4465-BD4F-134333645045}">
+									<Media>
+										<File Id="69569127"/>
 									</Media>
 								</SwitchContainer>
 							</Children>
@@ -3271,10 +3373,22 @@
 						<ActionSetStateEntry Id="2461612130" Name="TenOfCups" ObjectPath="\States\Default Work Unit\DuringReading\TenOfCups"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="952941314" Name="TenOfPentacles" ObjectPath="\Events\Default Work Unit\CardEvents\Pentacles\TenOfPentacles" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="952941314" Name="TenOfPentacles" ObjectPath="\States\Default Work Unit\DuringReading\TenOfPentacles"/>
+						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="2185129511" Name="TenOfSwords" ObjectPath="\Events\Default Work Unit\CardEvents\Swords\TenOfSwords" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
 						<ActionSetStateEntry Id="2185129511" Name="TenOfSwords" ObjectPath="\States\Default Work Unit\DuringReading\TenOfSwords"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1281506554" Name="TenOfWands" ObjectPath="\Events\Default Work Unit\CardEvents\Wands\TenOfWands" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1281506554" Name="TenOfWands" ObjectPath="\States\Default Work Unit\DuringReading\TenOfWands"/>
+						<ActionSetStateEntry Id="1900785500" Name="AfterReadingBed" ObjectPath="\States\Default Work Unit\DuringReading\AfterReadingBed"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="4181689965" Name="TheEmpress" ObjectPath="\Events\Default Work Unit\CardEvents\Major Arcana\TheEmpress" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
@@ -3565,6 +3679,9 @@
 				<StateGroup Id="925615014" Name="EightOfWands" ObjectPath="\States\Default Work Unit\DuringReading\EightOfWands">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="952941314" Name="TenOfPentacles" ObjectPath="\States\Default Work Unit\DuringReading\TenOfPentacles">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="953994230" Name="DuringReading" ObjectPath="\States\Default Work Unit\DuringReading">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\DuringReading\None"/>
@@ -3623,9 +3740,21 @@
 						<State Id="1652042331" Name="QueenOfPentacles" ObjectPath="\States\Default Work Unit\DuringReading\QueenOfPentacles"/>
 						<State Id="2710136177" Name="FourOfCups" ObjectPath="\States\Default Work Unit\DuringReading\FourOfCups"/>
 						<State Id="1397189013" Name="TheTower" ObjectPath="\States\Default Work Unit\DuringReading\TheTower"/>
+						<State Id="1354526533" Name="NineOfCups" ObjectPath="\States\Default Work Unit\DuringReading\NineOfCups"/>
+						<State Id="1094809470" Name="KnightOfCups" ObjectPath="\States\Default Work Unit\DuringReading\KnightOfCups"/>
+						<State Id="978542043" Name="NineOfWands" ObjectPath="\States\Default Work Unit\DuringReading\NineOfWands"/>
+						<State Id="1281506554" Name="TenOfWands" ObjectPath="\States\Default Work Unit\DuringReading\TenOfWands"/>
+						<State Id="952941314" Name="TenOfPentacles" ObjectPath="\States\Default Work Unit\DuringReading\TenOfPentacles"/>
+						<State Id="4137203499" Name="FourOfPentacles" ObjectPath="\States\Default Work Unit\DuringReading\FourOfPentacles"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="978542043" Name="NineOfWands" ObjectPath="\States\Default Work Unit\DuringReading\NineOfWands">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="1008270286" Name="Strength" ObjectPath="\States\Default Work Unit\DuringReading\Strength">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1094809470" Name="KnightOfCups" ObjectPath="\States\Default Work Unit\DuringReading\KnightOfCups">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1101082655" Name="ThreeOfCups" ObjectPath="\States\Default Work Unit\DuringReading\ThreeOfCups">
@@ -3640,7 +3769,13 @@
 				<StateGroup Id="1228487272" Name="QueenOfSwords" ObjectPath="\States\Default Work Unit\DuringReading\QueenOfSwords">
 					<States/>
 				</StateGroup>
+				<StateGroup Id="1281506554" Name="TenOfWands" ObjectPath="\States\Default Work Unit\DuringReading\TenOfWands">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="1323396928" Name="Card2Wands" ObjectPath="\States\Default Work Unit\GenerativeCardSuits\Card2Suit\Card2Wands">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1354526533" Name="NineOfCups" ObjectPath="\States\Default Work Unit\DuringReading\NineOfCups">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1397189013" Name="TheTower" ObjectPath="\States\Default Work Unit\DuringReading\TheTower">
@@ -3931,6 +4066,9 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="3929082740" Name="WheelOfFortune" ObjectPath="\States\Default Work Unit\DuringReading\WheelOfFortune">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4137203499" Name="FourOfPentacles" ObjectPath="\States\Default Work Unit\DuringReading\FourOfPentacles">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="4170319004" Name="TheHierophant" ObjectPath="\States\Default Work Unit\DuringReading\TheHierophant">

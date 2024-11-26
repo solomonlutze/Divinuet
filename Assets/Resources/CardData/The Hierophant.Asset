@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: The Hierophant
+  m_EditorClassIdentifier: 
+  cardName: The Hierophant
+  order: 5
+  suit: 0
+  cardPicture: {fileID: 2800000, guid: a6de5b12c8ceda34198d3416aa27de17, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: a6de5b12c8ceda34198d3416aa27de17, type: 3}
+  cardLongDescription: 'The Hierophant: tradition, conformity, mentoring^
+
+
+    This is the hierophant.^ He''s not my favorite.^ But that''s alright^He''s a tradition
+    guy'
+  cardShortDescription: 'tradition
+
+    conformity
+
+    mentor'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b15428f929af14444be36884740b6f4a,
+      type: 2}
+  clipDuration: 45
+  thematicGroup: 10
+  videoType: 8

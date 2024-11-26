@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: Four of Pentacles
+  m_EditorClassIdentifier: 
+  cardName: Four of Pentacles
+  order: 67
+  suit: 3
+  cardPicture: {fileID: 2800000, guid: d7a3dd89ce1584542a8ef5c49655a211, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: d7a3dd89ce1584542a8ef5c49655a211, type: 3}
+  cardLongDescription: "Four of Pentacles: stinginess, possessiveness, savings^\n\nlook
+    at this guy.^ see those big coins?^ you can't have them.^ they are for \nhim ONLY.^
+    back off bitch"
+  cardShortDescription: 'stinginess
+
+    possessiveness
+
+    savings'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7eaa7f40576caaa479c43db0ca2ea968,
+      type: 2}
+  clipDuration: 46
+  thematicGroup: 13
+  videoType: 6

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: Eight of Cups
+  m_EditorClassIdentifier: 
+  cardName: Eight of Cups
+  order: 43
+  suit: 1
+  cardPicture: {fileID: 2800000, guid: 2c02c487e4cfd584baf638fc58732a63, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: 2c02c487e4cfd584baf638fc58732a63, type: 3}
+  cardLongDescription: 'Eight of Cups: withdrawal, abandonment, disappointment^
+
+
+    imagine walking away from a stack of cups.^ hiking away, in fact.^ what a journey
+    you''re on.^ good for you^'
+  cardShortDescription: "withdrawal\nabadonment \ndisappointment"
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 83b4f1667de49d1469cacc2d7be34e45,
+      type: 2}
+  clipDuration: 41
+  thematicGroup: 12
+  videoType: 7
