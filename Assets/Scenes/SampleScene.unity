@@ -13232,9 +13232,154 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
         type: 3}
+      propertyPath: spreads.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[2].cardMeanings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[3].cardMeanings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[4].cardMeanings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[5].cardMeanings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
       propertyPath: runner
       value: 
       objectReference: {fileID: 13645793}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[0].name
+      value: Advice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[0].cardMeanings.Array.data[0]
+      value: Discard
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[0].cardMeanings.Array.data[1]
+      value: Consider
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[0].cardMeanings.Array.data[2]
+      value: Embrace
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[1].name
+      value: Chronological
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[1].cardMeanings.Array.data[0]
+      value: Past
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[1].cardMeanings.Array.data[1]
+      value: Present
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[1].cardMeanings.Array.data[2]
+      value: Future
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[2].name
+      value: Decision Making
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[2].cardMeanings.Array.data[0]
+      value: Choice 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[2].cardMeanings.Array.data[1]
+      value: Choice 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[2].cardMeanings.Array.data[2]
+      value: Advice
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[3].name
+      value: Path Forward
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[3].cardMeanings.Array.data[0]
+      value: Situation
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[3].cardMeanings.Array.data[1]
+      value: Action
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[3].cardMeanings.Array.data[2]
+      value: Outcome
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[4].name
+      value: Relationship
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[4].cardMeanings.Array.data[0]
+      value: Me
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[4].cardMeanings.Array.data[1]
+      value: Them
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[4].cardMeanings.Array.data[2]
+      value: Us
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[5].name
+      value: Self Check-In
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[5].cardMeanings.Array.data[0]
+      value: Mind
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[5].cardMeanings.Array.data[1]
+      value: Body
+      objectReference: {fileID: 0}
+    - target: {fileID: 5227146197149280348, guid: ab40778938db28c468f0d4c4399cf7d2,
+        type: 3}
+      propertyPath: spreads.Array.data[5].cardMeanings.Array.data[2]
+      value: Spirit
+      objectReference: {fileID: 0}
     - target: {fileID: 5227146198263163989, guid: ab40778938db28c468f0d4c4399cf7d2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
