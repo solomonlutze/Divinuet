@@ -949,7 +949,7 @@ MonoBehaviour:
   - serializableVideoClips:
     - {fileID: 32900000, guid: d9ffc65f436b4cb4d9596ae00d349638, type: 3}
     - {fileID: 32900000, guid: a005d2a3f58bda64f87a8cdf789cfdba, type: 3}
-    - {fileID: 0}
+    - {fileID: 32900000, guid: 18c096c5658628c4eb8c2a88018a9705, type: 3}
   - serializableVideoClips:
     - {fileID: 32900000, guid: a471d991280814b44b4d6fe5d9593a23, type: 3}
     - {fileID: 32900000, guid: 205db1f25acb0f0488f5356440621840, type: 3}
@@ -12898,7 +12898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.0000000052340763}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &798896212
