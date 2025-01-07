@@ -860,10 +860,10 @@ MonoBehaviour:
   suitMajorityClips:
   - {fileID: 32900000, guid: df069160fb325984da53b4e81d7e79df, type: 3}
   - {fileID: 32900000, guid: 719cd679982a460459519bf51087a2e7, type: 3}
+  - {fileID: 32900000, guid: 4150af880cf723142adaed52a2e1344d, type: 3}
   - {fileID: 32900000, guid: 2819e2222c2891a46838ffcca74470d5, type: 3}
-  - {fileID: 32900000, guid: 2819e2222c2891a46838ffcca74470d5, type: 3}
-  - {fileID: 32900000, guid: 2819e2222c2891a46838ffcca74470d5, type: 3}
-  - {fileID: 32900000, guid: 2819e2222c2891a46838ffcca74470d5, type: 3}
+  - {fileID: 32900000, guid: 93be48a7271c46a42b035e2a1c3c92c3, type: 3}
+  - {fileID: 32900000, guid: 2505cd297c3e43f4abdda2ba03fcc655, type: 3}
   setClipNumber: 1
   generativeSection: 0
   videoClips:
