@@ -60,9 +60,9 @@ public class GameRunner : MonoBehaviour
   // physical cards used to give the deck some depth and volume.
   // These don't serve any other function; "real" cards, to be read,
   // are instantiated on top of the pile, hopefully unnoticed.
-  public DeckCard[] cardsInDeck;
+  //public DeckCard[] cardsInDeck;
   // how many cards we'll be shuffling
-  public int numberOfCardsInDeck;
+ // public int numberOfCardsInDeck;
 
   public float cardDealSpeed;
   public float cardFlipSpeed;
@@ -199,7 +199,7 @@ public class GameRunner : MonoBehaviour
     savedReadingsUI = savedReadingsCanvas.GetComponent<SavedReadingsUI>();
     cardsSelectedToDeal = new List<int>();
     selectedCardData = new List<TarotCardData>();
-    cardsInDeck = new DeckCard[numberOfCardsInDeck];
+    //cardsInDeck = new DeckCard[numberOfCardsInDeck];
     enableButton = false;
     majorArcanaTotal = 0;
     cupsTotal = 0;
@@ -245,7 +245,7 @@ public class GameRunner : MonoBehaviour
   {
     cardsSelectedToDeal = new List<int>();
     selectedCardData = new List<TarotCardData>();
-    cardsInDeck = new DeckCard[numberOfCardsInDeck];
+    //cardsInDeck = new DeckCard[numberOfCardsInDeck];
     enableButton = false;
     majorArcanaTotal = 0;
     cupsTotal = 0;
@@ -259,15 +259,15 @@ public class GameRunner : MonoBehaviour
     {
       cardReadingSpot.canvasGroup.alpha = 0;
     }
-    for (int i = 0; i < numberOfCardsInDeck; i++)
-    {
-      cardsInDeck[i] = Instantiate(deckCardPrefab).GetComponent<DeckCard>();
-      cardsInDeck[i].transform.position = new Vector3(
-        transform.position.x,
-        transform.position.y,
-        transform.position.z - (i * 1f)
-      );
-    }
+   // for (int i = 0; i < numberOfCardsInDeck; i++)
+    //{
+     // cardsInDeck[i] = Instantiate(deckCardPrefab).GetComponent<DeckCard>();
+     // cardsInDeck[i].transform.position = new Vector3(
+       // transform.position.x,
+        //transform.position.y,
+       // transform.position.z - (i * 1f)
+      //);
+    //}
   }
 
 
@@ -648,13 +648,13 @@ public class GameRunner : MonoBehaviour
     setClipNumber = 1;
   }
 
-  void FadeOutDeck()
-  {
-    foreach (DeckCard card in cardsInDeck)
-    {
-      StartCoroutine(card.FadeOut());
-    }
-  }
+  //void FadeOutDeck()
+  //{
+    //foreach (DeckCard card in cardsInDeck)
+    //{
+      //StartCoroutine(card.FadeOut());
+    //}
+  //}
 
   IEnumerator FadeInCard()
   {
