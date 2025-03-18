@@ -18,8 +18,8 @@ MonoBehaviour:
   cardPicture: {fileID: 2800000, guid: d7a3dd89ce1584542a8ef5c49655a211, type: 3}
   cardPicture2x: {fileID: 21300000, guid: d7a3dd89ce1584542a8ef5c49655a211, type: 3}
   cardLongDescription: "Four of Pentacles: stinginess, possessiveness, savings^\n\nlook
-    at this guy.^ see those big coins?^ you can't have them.^ they are for \nhim ONLY.^
-    back off bitch"
+    at this guy.^ see those big coins?^ you can't have them.^ they are for \nhim
+    ONLY.^ back off bitch"
   cardShortDescription: 'stinginess
 
     possessiveness

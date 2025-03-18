@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DEBUG_skipReading: 1
-  DEBUG_skipAllReadings: 1
+  DEBUG_skipAllReadings: 0
   DEBUG_SaveReadingImmediately: 0
   DEBUG_EnableReadingGeneration: 0
   deckCardPrefab: {fileID: 4088565087975016767, guid: f17d95d6ec51d44d68dc02e5f2e3cb99,
@@ -861,7 +861,7 @@ MonoBehaviour:
   suitMajorityClips:
   - {fileID: 32900000, guid: 963c56cae22b8714386513a15edfd6c0, type: 3}
   - {fileID: 32900000, guid: 719cd679982a460459519bf51087a2e7, type: 3}
-  - {fileID: 32900000, guid: 87207c95672f5c64dbb7977f9eafb1c0, type: 3}
+  - {fileID: 32900000, guid: 923991fe34e7c8b49b008e067a3cddcb, type: 3}
   - {fileID: 32900000, guid: 2819e2222c2891a46838ffcca74470d5, type: 3}
   - {fileID: 32900000, guid: 447220ba1a7bc2145875d4625a9d9002, type: 3}
   - {fileID: 32900000, guid: 1958e26254535f44c88bd5b3f95377b5, type: 3}
@@ -13573,7 +13573,7 @@ PrefabInstance:
     - target: {fileID: 5227146197149280349, guid: ab40778938db28c468f0d4c4399cf7d2,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5227146198159529365, guid: ab40778938db28c468f0d4c4399cf7d2,
         type: 3}
