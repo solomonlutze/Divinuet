@@ -18,7 +18,7 @@ MonoBehaviour:
     m_Value: 0.54
   contrast:
     m_OverrideState: 1
-    m_Value: -51.5
+    m_Value: 0
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 0.6933962, g: 0.8216461, b: 1, a: 1}
@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: -67.8
+    m_Value: -100
 --- !u!114 &-7206310782265734234
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -149,31 +149,31 @@ MonoBehaviour:
   active: 1
   m_Grain:
     m_OverrideState: 1
-    m_Value: 0.605
+    m_Value: 0.397
   m_Noise:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 3
   m_NoiseAlpha:
     m_OverrideState: 1
-    m_Value: 0.711
+    m_Value: 0.164
   m_Jolt:
     m_OverrideState: 1
-    m_Value: 0.18
+    m_Value: 0
   m_Fps:
     m_OverrideState: 1
-    m_Value: 16
+    m_Value: 8.6
   m_Vignette:
     m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 0.78039217}
   m_GrainTex:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 4
   m_Audio:
-    m_OverrideState: 1
-    m_Value: 3
+    m_OverrideState: 0
+    m_Value: 0
   m_Volume:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.265
   m_Pich:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.955
