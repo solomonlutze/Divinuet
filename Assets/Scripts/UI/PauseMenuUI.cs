@@ -10,7 +10,7 @@ public class PauseMenuUI : BaseUICanvas
   public Transform confirmLeaveReadingModal;
   ConfirmLeaveReadingOption currentLeaveReadingOption;
 
-  public enum ConfirmLeaveReadingOption { NewReading, MainMenu, QuitGame }
+  public enum ConfirmLeaveReadingOption { MainMenu, QuitGame }
   public GameRunner gameRunner;
 
   void OnEnable()
@@ -21,18 +21,6 @@ public class PauseMenuUI : BaseUICanvas
   void OnDisable()
   {
     confirmLeaveReadingModal.gameObject.SetActive(false);
-  }
-
-  public void HideConfirmNewReadingModal()
-  {
-    confirmLeaveReadingModal.gameObject.SetActive(false);
-  }
-
-  public void ShowConfirmNewReadingModal()
-  {
-    confirmLeaveReadingModal.gameObject.SetActive(true);
-    currentLeaveReadingOption = ConfirmLeaveReadingOption.NewReading;
-    confirmLeaveReadingText.text = "Begin a new reading?";
   }
 
   public void ShowConfirmMainMenuModal()
@@ -54,9 +42,6 @@ public class PauseMenuUI : BaseUICanvas
   {
     switch (currentLeaveReadingOption)
     {
-      case ConfirmLeaveReadingOption.NewReading:
-        NewReading();
-        break;
       case ConfirmLeaveReadingOption.MainMenu:
         MainMenu();
         break;
@@ -68,12 +53,7 @@ public class PauseMenuUI : BaseUICanvas
   }
 
   // TODO: probably shouldn't be handling sound from here
-  void NewReading()
-  {
-    AkSoundEngine.PostEvent("Stop_All", gameRunner.gameObject);
-    AkSoundEngine.PostEvent("MenuAmbienceStart", gameRunner.gameObject);
-    gameRunner.ChooseGameMode();
-  }
+
 
   void MainMenu()
   {

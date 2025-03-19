@@ -231,11 +231,6 @@ public class GameRunner : MonoBehaviour
   void ClearGameState()
   {
     StopAllCoroutines();
-    foreach (ParticleSystem spark in sparks)
-    {
-      sparks[numCardsAlreadyRead].Stop();
-      sparks[numCardsAlreadyRead].Clear();
-    }
     numCardsAlreadyRead = 0;
     readingUI.StopAllCoroutines();
     StartCoroutine(readingUI.FadeOut());
@@ -914,6 +909,7 @@ public class GameRunner : MonoBehaviour
 
   public void QuitToMainMenu()
   {
+    AkSoundEngine.PostEvent("Stop_All", gameObject);
     SetGameState(GameState.MainMenu);
   }
 
