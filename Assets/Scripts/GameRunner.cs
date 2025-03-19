@@ -30,6 +30,7 @@ public enum GameState
   ShowingEndInstructions,
   GenerativePhase,
   GenerativePhaseDone,
+  Credits,
   Done
 }
 
@@ -115,7 +116,9 @@ public class GameRunner : MonoBehaviour
   public AK.Wwise.Event accompanimentSwords;
   public AK.Wwise.Event accompanimentMajorArcana;
   public AK.Wwise.Event accompanimentNull;
-  public AK.Wwise.Event cardSlideSFX;
+  public AK.Wwise.Event pauseMenuMusic;
+  public AK.Wwise.Event resumePlayingMusic;
+
 
   //Generative phase Wwise events
   public AK.Wwise.Event[] card1MelodyEvents;
@@ -275,7 +278,7 @@ public class GameRunner : MonoBehaviour
   // Used in this class to handle user input.
   void Update()
   {
-    if (Input.GetMouseButtonDown(0) && !buttonHover)
+    if (Input.GetMouseButtonDown(0) && !buttonHover && !paused) 
     {
       switch (gameState)
       {
@@ -381,16 +384,30 @@ public class GameRunner : MonoBehaviour
   }
   public void TogglePause()
   {
-    if (paused)
+    if ((paused) && (gameState != GameState.MainMenu))
     {
       Unpause();
+      resumePlayingMusic.Post(gameObject);
+      if (gameState == GameState.GenerativePhase)
+      {
+        videoPlayer.Play();
+      }
     }
-    else
+    else if (gameState != GameState.MainMenu)
     {
       Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
       paused = true;
       pauseCanvas.gameObject.SetActive(true);
       Time.timeScale = 0;
+      if (gameState == GameState.GenerativePhase)
+      {
+        videoPlayer.Pause();
+      }
+      pauseMenuMusic.Post(gameObject);
+    }
+    else
+    {
+      Debug.Log("Pause menu blocked");
     }
   }
 
@@ -662,11 +679,6 @@ public class GameRunner : MonoBehaviour
     TarotCardData cardData = selectedCardData[numCardsAlreadyRead];
     cardReadingSpots[numCardsAlreadyRead].Init(cardData, cardMeanings[numCardsAlreadyRead], numCardsAlreadyRead, this);
     int groupNumber = cardData.thematicGroup;
-    Color sparkColor = groupSparkColors[groupNumber - 1];
-    Debug.Log(groupNumber + " " + sparkColor);
-    ParticleSystem.MainModule ma = sparks[numCardsAlreadyRead].main;
-    ma.startColor = sparkColor;
-    sparks[numCardsAlreadyRead].Play();
     while (t < 1)
     {
       t += Time.deltaTime / cardFlipSpeed;

@@ -117,6 +117,7 @@ namespace AK
         static const AkUniqueID NINEOFWANDS = 978542043U;
         static const AkUniqueID NULL = 784127654U;
         static const AkUniqueID PAGEOFCUPS = 3090537132U;
+        static const AkUniqueID PAUSE_MENU = 3422541661U;
         static const AkUniqueID PENTACLES = 495557850U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID QUEENOFCUPS = 2722779265U;
@@ -124,6 +125,7 @@ namespace AK
         static const AkUniqueID QUEENOFSWORDS = 1228487272U;
         static const AkUniqueID QUEENOFWANDS = 1734100207U;
         static const AkUniqueID READINGSTART = 1965947029U;
+        static const AkUniqueID RESUME_PLAY = 938238989U;
         static const AkUniqueID SEVENOFCUPS = 884571752U;
         static const AkUniqueID SEVENOFPENTACLES = 4205938704U;
         static const AkUniqueID SEVENOFSWORDS = 587937073U;

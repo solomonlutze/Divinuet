@@ -452,7 +452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20b4078588a7c4d4886cd8446f1c8737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DEBUG_skipReading: 1
+  DEBUG_skipReading: 0
   DEBUG_skipAllReadings: 1
   DEBUG_SaveReadingImmediately: 0
   DEBUG_EnableReadingGeneration: 0
@@ -549,10 +549,15 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 146e3497d04d0cf4eaabe0a07e7edfe0,
       type: 2}
-  cardSlideSFX:
+  pauseMenuMusic:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 6f85934fe9342bb4eb10e1c749592cd0,
+    WwiseObjectReference: {fileID: 11400000, guid: 6f1d5a4145000ab49a9115dd044cb662,
+      type: 2}
+  resumePlayingMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7d5b96e1b2b92dd4e8f7073e5a615635,
       type: 2}
   card1MelodyEvents:
   - idInternal: 0
@@ -19667,6 +19672,7 @@ GameObject:
   - component: {fileID: 1073943203}
   - component: {fileID: 1073943205}
   - component: {fileID: 1073943204}
+  - component: {fileID: 1073943208}
   m_Layer: 5
   m_Name: PauseMenuCanvas
   m_TagString: Untagged
@@ -19814,6 +19820,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073943198}
   m_CullTransparentMesh: 0
+--- !u!114 &1073943208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073943198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974ad79dcde11414ea2d9a23467b617a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1075418771
 GameObject:
   m_ObjectHideFlags: 0
@@ -24034,7 +24062,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 42.5
+  m_fontSize: 42.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
