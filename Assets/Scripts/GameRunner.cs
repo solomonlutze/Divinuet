@@ -876,6 +876,7 @@ public class GameRunner : MonoBehaviour
   }
   public void StartGame()
   {
+    CanvasGroup spreadGroup = spreadCanvas.GetComponent<CanvasGroup>();
     switch (gameMode)
     {
       case GameMode.Random:
@@ -886,7 +887,6 @@ public class GameRunner : MonoBehaviour
         SetCanvasActive(readingCanvas, true);
         SetCanvasActive(spreadCanvas, true);
         ResetGameState();
-        CanvasGroup spreadGroup = spreadCanvas.GetComponent<CanvasGroup>();
         spreadGroup.alpha = 1;
         ChooseAllCardsRandomly();
         PrepForReading();
@@ -896,6 +896,7 @@ public class GameRunner : MonoBehaviour
         AkSoundEngine.PostEvent("MenuAmbienceStop", this.gameObject);
         SetCanvasActive(generativeCanvas, true);
         SetCanvasActive(readingCanvas, true);
+        spreadGroup.alpha = 1;
         PrepForReading();
         break;
       case GameMode.Choose:
@@ -905,6 +906,7 @@ public class GameRunner : MonoBehaviour
         SetCanvasActive(cardSelectionCanvas, true);
         cardSelectionUI.Init(GameMaster.Instance.cardsData, this);
         ResetGameState();
+        spreadGroup.alpha = 1;
         break;
     }
   }

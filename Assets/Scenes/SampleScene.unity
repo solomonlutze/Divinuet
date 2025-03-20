@@ -452,7 +452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20b4078588a7c4d4886cd8446f1c8737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DEBUG_skipReading: 0
+  DEBUG_skipReading: 1
   DEBUG_skipAllReadings: 0
   DEBUG_SaveReadingImmediately: 0
   DEBUG_EnableReadingGeneration: 0
@@ -499,6 +499,7 @@ MonoBehaviour:
   swordsTotal: 0
   pentaclesTotal: 0
   suitMajority: 
+  musicStarted: 0
   readingStart:
     idInternal: 0
     valueGuidInternal: 
@@ -1148,7 +1149,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Resume Reading
+  m_text: Resume
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -4461586694956806681, guid: b9f3567c72f45d24798bdff1fb46e761,
@@ -1225,11 +1226,11 @@ MonoBehaviour:
     lineCount: 2
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
