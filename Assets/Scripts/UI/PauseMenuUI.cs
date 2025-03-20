@@ -52,8 +52,6 @@ public class PauseMenuUI : BaseUICanvas
     }
   }
 
-  // TODO: probably shouldn't be handling sound from here
-
 
   void MainMenu()
   {

@@ -104,6 +104,7 @@ public class GameRunner : MonoBehaviour
   public int swordsTotal = 0;
   public int pentaclesTotal = 0;
   public string suitMajority;
+  public bool musicStarted;
 
   //Wwise events to be set in editor
   public AK.Wwise.Event readingStart;
@@ -209,6 +210,7 @@ public class GameRunner : MonoBehaviour
     wandsTotal = 0;
     pentaclesTotal = 0;
     swordsTotal = 0;
+    musicStarted = false;
     buttonHover = false;
     canvases = new List<Canvas> {
       mainMenuCanvas,
@@ -398,7 +400,10 @@ public class GameRunner : MonoBehaviour
       {
         videoPlayer.Pause();
       }
-      pauseMenuMusic.Post(gameObject);
+      if (musicStarted)
+      {
+        pauseMenuMusic.Post(gameObject);
+      }
     }
     else
     {
@@ -536,15 +541,16 @@ public class GameRunner : MonoBehaviour
   {
     TarotCardData cardData = GetCardData(cardOrder);
     selectedCardData.Add(cardData);
-
     //select video clips to be played during generative section, one based on card type and one based on thematic group
 
     if (cardData.videoType == CardVideoType.MajorArcana)
     {
+      Debug.Log("eyyyyy " + cardOrder);
       videoClips[setClipNumber] = majorArcanaVideoClips[cardOrder];
     }
     else
     {
+      Debug.Log("eyyyyy " + cardOrder);
       int videoType = (int)cardData.videoType;
       videoClips[setClipNumber] = minorArcanaVideoClips[videoType].serializableVideoClips[numberCardsAlreadyDealt];
     }
@@ -657,7 +663,6 @@ public class GameRunner : MonoBehaviour
     }
     enableButton = true;
     Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-    setClipNumber = 1;
   }
 
   //void FadeOutDeck()
@@ -881,6 +886,8 @@ public class GameRunner : MonoBehaviour
         SetCanvasActive(readingCanvas, true);
         SetCanvasActive(spreadCanvas, true);
         ResetGameState();
+        CanvasGroup spreadGroup = spreadCanvas.GetComponent<CanvasGroup>();
+        spreadGroup.alpha = 1;
         ChooseAllCardsRandomly();
         PrepForReading();
         break;
@@ -910,6 +917,8 @@ public class GameRunner : MonoBehaviour
   public void QuitToMainMenu()
   {
     AkSoundEngine.PostEvent("Stop_All", gameObject);
+    musicStarted = false;
+    numberCardsAlreadyDealt = 0;
     SetGameState(GameState.MainMenu);
   }
 
@@ -990,6 +999,7 @@ public class GameRunner : MonoBehaviour
         videoCanvas.gameObject.SetActive(true);
         break;
       case (GameState.ReadyToFadeInCard):
+        musicStarted = true;
         PrepForReading();
         AkSoundEngine.PostEvent("MenuAmbienceStop", this.gameObject);
         readingStart.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncUserCue, CallbackFunction);
@@ -997,6 +1007,7 @@ public class GameRunner : MonoBehaviour
         SetCanvasActive(generativeCanvas, true);
         SetCanvasActive(readingCanvas, true);
         SetCanvasActive(spreadCanvas, true);
+        
         break;
       case (GameState.ChooseGameMode):
         readingUI.canvasGroup.alpha = 0;
