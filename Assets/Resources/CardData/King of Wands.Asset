@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: King of Wands
+  m_EditorClassIdentifier: 
+  cardName: King of Wands
+  order: 63
+  suit: 4
+  cardPicture: {fileID: 2800000, guid: 3a23d86d65dbb534daad824460698e26, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: 3a23d86d65dbb534daad824460698e26, type: 3}
+  cardLongDescription: 'King of Wands: leader, vision, confidence^
+
+
+    are you
+    on linkedin'
+  cardShortDescription: 'leader
+
+    vision
+
+    confidence'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 71a8e11d19f5540439ffb07ac48ca2bc,
+      type: 2}
+  clipDuration: 50
+  thematicGroup: 10
+  videoType: 3

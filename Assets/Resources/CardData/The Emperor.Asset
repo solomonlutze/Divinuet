@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: The Emperor
+  m_EditorClassIdentifier: 
+  cardName: The Emperor
+  order: 4
+  suit: 0
+  cardPicture: {fileID: 2800000, guid: 38e8641c40ce61b44bcdd2be717a5f51, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: 38e8641c40ce61b44bcdd2be717a5f51, type: 3}
+  cardLongDescription: 'The Emperor: leadership, discipline, protection^
+
+
+    you
+    don''t gotta listen to this guy'
+  cardShortDescription: 'leadership
+
+    discipline
+
+    protection'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea3622aa64377004db48e471232bd088,
+      type: 2}
+  clipDuration: 50
+  thematicGroup: 10
+  videoType: 8

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: Knight of Pentacles
+  m_EditorClassIdentifier: 
+  cardName: Knight of Pentacles
+  order: 75
+  suit: 3
+  cardPicture: {fileID: 2800000, guid: 3cc184b656922104ba09eecdadbdf390, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: 3cc184b656922104ba09eecdadbdf390, type: 3}
+  cardLongDescription: 'Knight of Pentacles: caution, practicality, slow and steady^
+
+
+    this
+    guy is boring'
+  cardShortDescription: 'caution
+
+    practicality
+
+    slow and steady'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: be8244f5f63c94c4c912580d53c54474,
+      type: 2}
+  clipDuration: 50
+  thematicGroup: 13
+  videoType: 1

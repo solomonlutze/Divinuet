@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: Page of Wands
+  m_EditorClassIdentifier: 
+  cardName: Page of Wands
+  order: 60
+  suit: 4
+  cardPicture: {fileID: 2800000, guid: 90b3c73d154cfbe4aa25738f224b0005, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: 90b3c73d154cfbe4aa25738f224b0005, type: 3}
+  cardLongDescription: page of wands!!!!!
+  cardShortDescription: 'inspiration
+
+    potential
+
+    optimism'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df5a0c7972566fb4aac1970f34f3d238,
+      type: 2}
+  clipDuration: 50
+  thematicGroup: 5
+  videoType: 0

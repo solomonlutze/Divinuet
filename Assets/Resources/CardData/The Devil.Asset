@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8883c4e804a4aedb12a21c5434e4d7, type: 3}
+  m_Name: The Devil
+  m_EditorClassIdentifier: 
+  cardName: The Devil
+  order: 15
+  suit: 0
+  cardPicture: {fileID: 2800000, guid: b80212414b5f87841b3a6290fd7c2f2c, type: 3}
+  cardPicture2x: {fileID: 21300000, guid: b80212414b5f87841b3a6290fd7c2f2c, type: 3}
+  cardLongDescription: 'The Devil: rebellion, addiction, bad habits^
+
+
+    literally
+    satan'
+  cardShortDescription: 'rebellion
+
+    addiction
+
+    bad habits'
+  readingMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e3e88af7560f25f4684042943a3ac94d,
+      type: 2}
+  clipDuration: 50
+  thematicGroup: 1
+  videoType: 8
