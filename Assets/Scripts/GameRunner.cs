@@ -153,7 +153,7 @@ public class GameRunner : MonoBehaviour
 
   //Card videos
   public UnityEngine.Video.VideoClip[] majorArcanaVideoClips = new UnityEngine.Video.VideoClip[21];
-  public SerializableVideoClips[] minorArcanaVideoClips = new SerializableVideoClips[9];
+  public SerializableVideoClips[] minorArcanaVideoClips = new SerializableVideoClips[8];
 
   //Group videos
 

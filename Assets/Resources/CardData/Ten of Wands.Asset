@@ -34,5 +34,5 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 0be67e6f20810354f916a84416ad0362,
       type: 2}
   clipDuration: 49
-  thematicGroup: 13
+  thematicGroup: 1
   videoType: 4

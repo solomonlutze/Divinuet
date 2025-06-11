@@ -24,19 +24,6 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 50f759a9230336b40a406e080d5c77c8,
       type: 2}
-  cardKeyArray:
-  - idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5a707d8302c576f4b9b8071d36f2455d,
-      type: 2}
-  - idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 526f0f3af1678914d833782fed7bb805,
-      type: 2}
-  - idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: fe5b9147ae30f3c489fd37c727a7042e,
-      type: 2}
   clipDuration: 45
   thematicGroup: 9
   videoType: 6

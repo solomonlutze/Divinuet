@@ -889,7 +889,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 32900000, guid: c06e4beb253819745960823907b5f1a5, type: 3}
   - {fileID: 0}
   - {fileID: 32900000, guid: 83c0cff58e5f5694cb1144910f871f11, type: 3}
   - {fileID: 32900000, guid: 651fca3ecca67ce4ca83f221c0e2da73, type: 3}
@@ -898,19 +898,15 @@ MonoBehaviour:
   - {fileID: 32900000, guid: f16e045580444f541a9669b6fa16e13e, type: 3}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 32900000, guid: 55dd62323e9a9a149983856c0248a95e, type: 3}
   - {fileID: 32900000, guid: 078c0af714371a343895f4f30f834b88, type: 3}
   - {fileID: 32900000, guid: f76e6e0baaf398e438bc62e5b400ac77, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 32900000, guid: 04eb99952bb16fa49944e6d900479f2a, type: 3}
+  - {fileID: 32900000, guid: b524a58f3cecfb14289c2c4faad13d18, type: 3}
   - {fileID: 0}
   minorArcanaVideoClips:
   - serializableVideoClips:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-  - serializableVideoClips:
-    - {fileID: 0}
+    - {fileID: 32900000, guid: c33f75adf3cda874ea9bce6d07848da1, type: 3}
     - {fileID: 0}
     - {fileID: 0}
   - serializableVideoClips:
@@ -926,6 +922,10 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
   - serializableVideoClips:
+    - {fileID: 32900000, guid: fb7a1bbab458e5243ac4fb33f8ed0058, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+  - serializableVideoClips:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -934,7 +934,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
   - serializableVideoClips:
-    - {fileID: 0}
+    - {fileID: 32900000, guid: be75849a5734fe544acadd6934d53aa0, type: 3}
     - {fileID: 0}
     - {fileID: 0}
   - serializableVideoClips:
