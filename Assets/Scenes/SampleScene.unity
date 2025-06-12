@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DEBUG_skipReading: 0
-  DEBUG_skipAllReadings: 0
+  DEBUG_skipAllReadings: 1
   DEBUG_SaveReadingImmediately: 0
   DEBUG_EnableReadingGeneration: 0
   deckCardPrefab: {fileID: 4088565087975016767, guid: f17d95d6ec51d44d68dc02e5f2e3cb99,
@@ -887,7 +887,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 32900000, guid: 99e46c7e705c5d548966c35edc2b6397, type: 3}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 32900000, guid: 6e95f4b2e85c12049a581b5f367e9243, type: 3}
   - {fileID: 0}
   - {fileID: 32900000, guid: c06e4beb253819745960823907b5f1a5, type: 3}
   - {fileID: 0}
@@ -897,7 +897,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 30e8e164485b34546ad9890e4624a777, type: 3}
   - {fileID: 32900000, guid: f16e045580444f541a9669b6fa16e13e, type: 3}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 32900000, guid: 77382b7a034510647a585b6055530790, type: 3}
   - {fileID: 32900000, guid: 55dd62323e9a9a149983856c0248a95e, type: 3}
   - {fileID: 32900000, guid: 078c0af714371a343895f4f30f834b88, type: 3}
   - {fileID: 32900000, guid: f76e6e0baaf398e438bc62e5b400ac77, type: 3}
@@ -930,7 +930,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
   - serializableVideoClips:
-    - {fileID: 0}
+    - {fileID: 32900000, guid: 2cba0118021eadf43bb67728fe894f12, type: 3}
     - {fileID: 0}
     - {fileID: 0}
   - serializableVideoClips:
@@ -12782,6 +12782,37 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &755971336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755971337}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755971337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755971336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &785127115
 GameObject:
   m_ObjectHideFlags: 0
@@ -34227,3 +34258,4 @@ SceneRoots:
   - {fileID: 1171677613}
   - {fileID: 482125518}
   - {fileID: 2057487251}
+  - {fileID: 755971337}
